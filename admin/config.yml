@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images/productos"
+public_folder: "assets/images/productos"
+
+collections:
+  - name: 'catalogo'
+    label: 'Catálogo de Productos'
+    files:
+      - file: '_data/productos_content.yml'
+        label: 'Editar Productos'
+        name: 'productos_datos'
+        fields:
+          - label: 'Lista de Productos'
+            name: 'productos_list'
+            widget: 'list'
+            fields:
+              - {label: 'Nombre del Producto', name: 'titulo', widget: 'string'}
+              - {label: 'Categoría', name: 'categoria', widget: 'select', options: ['Línea de Frío', 'Sistemas de Pesaje', 'Gastronomía', 'Línea Carnicería', 'Línea Panadería', 'Exhibidores']}
+              - {label: 'Imagen', name: 'img_principal', widget: 'image'}
+              - {label: 'Etiqueta (Amarilla)', name: 'badge_texto', widget: 'string', default: 'DESTACADO'}
+              - {label: 'Link WhatsApp', name: 'wa_link', widget: 'string', default: 'https://wa.me/5493644177499'}
