@@ -1,0 +1,6 @@
+productos_list:
+  - titulo: "Producto de Prueba"
+    categoria: "Gastronomía"
+    img_principal: "assets/images/gastronomia/spiedo-calabro-24-pollos.png"
+    badge_texto: "NUEVO"
+    wa_link: "https://wa.me/5493644177499"
