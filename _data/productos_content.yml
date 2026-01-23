@@ -1,6 +1,11 @@
 productos_list:
-  - titulo: "Producto de Prueba"
+  - titulo: "Spiedo 24 Pollos"
     categoria: "Gastronomía"
     img_principal: "assets/images/gastronomia/spiedo-calabro-24-pollos.png"
+    badge_texto: "DESTACADO"
+    wa_link: "https://wa.me/5493644177499"
+  - titulo: "Balanza Systel"
+    categoria: "Sistemas de Pesaje"
+    img_principal: "assets/images/pesaje/balanza.png"
     badge_texto: "NUEVO"
     wa_link: "https://wa.me/5493644177499"
