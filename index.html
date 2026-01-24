@@ -964,17 +964,15 @@
 
                 <div class="tab-content" id="v-pills-tabContent" style="min-height: 500px;">
                     
-   <div class="tab-pane fade show active" id="content-frio" role="tabpanel">
+<div class="tab-pane fade show active" id="content-frio" role="tabpanel">
     <div class="product-grid">
-        {% for p in site.data.frio.productos_list %}
+        {% for p in site.data.productos_content.productos_frio_list %}
             <div class="product-card">
                 {% if p.badge_texto != "" and p.badge_texto != nil %}
                     <span class="badge-disponible">{{ p.badge_texto }}</span>
                 {% endif %}
-                
                 <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
                 <h5>{{ p.titulo }}</h5>
-                
                 <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card">
                     <i class="fab fa-whatsapp"></i> CONSULTAR
                 </a>
@@ -1728,6 +1726,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   </body>
 </html>
+
 
 
 
