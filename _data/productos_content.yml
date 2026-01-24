@@ -1,200 +1,212 @@
-# --- PRODUCTOS DE GASTRONOMÍA ---
 productos_list:
-  - titulo: "Spiedo 12 Rollos Calabro"
-    categoria: "Gastronomía"
-    img_principal: "assets/images/gastronomia/spiedo-calabro-12-pollos.png"
+  - titulo: Spiedo 12 Rollos Calabro
+    categoria: Gastronomía
+    img_principal: assets/images/gastronomia/spiedo-calabro-12-pollos.png
     badge_texto: ""
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 12 rollos Calabro"
-  - titulo: "Spiedo 24 Rollos Calabro"
-    categoria: "Gastronomía"
-    img_principal: "assets/images/gastronomia/spiedo-calabro-24-pollos.png"
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 12
+      rollos Calabro
+  - titulo: Spiedo 24 Rollos Calabro
+    categoria: Gastronomía
+    img_principal: assets/images/gastronomia/spiedo-calabro-24-pollos.png
     badge_texto: ""
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 24 rollos Calabro"
-  - titulo: "Cocina Industrial Pesada"
-    categoria: "Gastronomía"
-    img_principal: "assets/images/gastronomia/cocinaindustrial1.jpeg"
-    badge_texto: "PRODUCTO DESTACADO"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Industrial Pesada"
-  - titulo: "Cocina Semi-Industrial"
-    categoria: "Gastronomía"
-    img_principal: "assets/images/gastronomia/cocina-semi-industriales.jpeg"
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 24
+      rollos Calabro
+  - titulo: Cocina Industrial Pesada
+    categoria: Gastronomía
+    img_principal: assets/images/gastronomia/cocinaindustrial1.jpeg
+    badge_texto: PRODUCTO DESTACADO
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Industrial
+      Pesada
+  - titulo: Cocina Semi-Industrial
+    categoria: Gastronomía
+    img_principal: assets/images/gastronomia/cocina-semi-industriales.jpeg
     badge_texto: ""
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Semi-Industrial"
-  - titulo: "Freidora Automática"
-    categoria: "Gastronomía"
-    img_principal: "assets/images/gastronomia/freidora1.jpeg"
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Cocina
+      Semi-Industrial
+  - titulo: Freidora Automática
+    categoria: Gastronomía
+    img_principal: assets/images/gastronomia/freidora1.jpeg
     badge_texto: ""
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Freidora"
-
-# --- PRODUCTOS DE LÍNEA DE FRÍO ---
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Freidora
 productos_frio_list:
-  - titulo: "Conservadora para helados FAM 12 Tachos"
-    img_principal: "assets/images/frio/conservadora-para-helados-12tachos.png"
-    wa_link: "https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 12 tachos"
-    categoria: "Frío"
-    badge_texto: "PRODUCTO DESTACADO"
-  - titulo: "Conservadora para helados FAM 16 Tachos"
-    img_principal: "assets/images/frio/conservadora-para-helados-16-tachos-foto1.webp"
-    wa_link: "https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 16 tachos"
-    categoria: "Frío"
-  - titulo: "Conservadora para helados FAM 18 Tachos"
-    img_principal: "assets/images/frio/conservadora-para-helados-18-tachos-foto1.webp"
-    wa_link: "https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 18 tachos"
-    categoria: "Frío"
-  - titulo: "Conservadora para helados FAM 22 Tachos"
-    img_principal: "assets/images/frio/conservadora-para-helados-22-tachos-foto1.webp"
-    wa_link: "https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 22 tachos"
-    categoria: "Frío"
-  - titulo: "Heladera Carnicera (Ganchera)"
-    img_principal: "assets/images/frio/heladera-carnicera.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Heladera Carnicera"
-    categoria: "Frío"
-  - titulo: "Mini Cámara Frigorífica"
-    img_principal: "assets/images/frio/mini-camaras.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa consultar el stock de la Mini Cámara"
-    categoria: "Frío"
-  - titulo: "Heladera Exhibidora"
-    img_principal: "assets/images/frio/heladera-vitrina1.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola Néstor! Quiero consultar stock de la Heladera Exhibidora Vertical"
-    categoria: "Frío"
-  - titulo: "Heladera Exhibidora Doble Puerta"
-    img_principal: "assets/images/frio/heladera-vitrina2.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola Néstor! Quiero consultar stock de la Heladera Exhibidora Doble Puerta"
-    categoria: "Frío"
-  - titulo: "Heladera Exhibidora 370 Lts"
-    img_principal: "assets/images/frio/heladera-exhibidora-vertical1.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la Exhibidora de 370 Lts"
-    categoria: "Frío"
-  - titulo: "Heladera Exhibidora 470 Lts"
-    img_principal: "assets/images/frio/heladera-exhibidora-vertical2.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la Exhibidora de 470 Lts"
-    categoria: "Frío"
-
-# --- PRODUCTOS DE SISTEMAS DE PESAJE ---
+  - titulo: Conservadora para helados FAM 12 Tachos
+    img_principal: assets/images/frio/conservadora-para-helados-12tachos.png
+    wa_link: https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 12
+      tachos
+    categoria: Frío
+    badge_texto: PRODUCTO DESTACADO
+  - titulo: Conservadora para helados FAM 16 Tachos
+    img_principal: assets/images/frio/conservadora-para-helados-16-tachos-foto1.webp
+    wa_link: https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 16
+      tachos
+    categoria: Frío
+  - titulo: Conservadora para helados FAM 18 Tachos
+    img_principal: assets/images/frio/conservadora-para-helados-18-tachos-foto1.webp
+    wa_link: https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 18
+      tachos
+    categoria: Frío
+  - titulo: Conservadora para helados FAM 22 Tachos
+    img_principal: assets/images/frio/conservadora-para-helados-22-tachos-foto1.webp
+    wa_link: https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 22
+      tachos
+    categoria: Frío
+  - titulo: Heladera Carnicera (Ganchera)
+    img_principal: assets/images/frio/heladera-carnicera.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Heladera Carnicera
+    categoria: Frío
+  - titulo: Mini Cámara Frigorífica
+    img_principal: assets/images/frio/mini-camaras.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa consultar el stock
+      de la Mini Cámara
+    categoria: Frío
+  - titulo: Heladera Exhibidora
+    img_principal: assets/images/frio/heladera-vitrina1.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Quiero consultar stock de
+      la Heladera Exhibidora Vertical
+    categoria: Frío
+  - titulo: Heladera Exhibidora Doble Puerta
+    img_principal: assets/images/frio/heladera-vitrina2.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Quiero consultar stock de
+      la Heladera Exhibidora Doble Puerta
+    categoria: Frío
+  - titulo: Heladera Exhibidora 370 Lts
+    img_principal: assets/images/frio/heladera-exhibidora-vertical1.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Exhibidora de 370 Lts
+    categoria: Frío
+  - titulo: Heladera Exhibidora 470 Lts
+    img_principal: assets/images/frio/heladera-exhibidora-vertical2.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Exhibidora de 470 Lts
+    categoria: Frío
 productos_pesaje_list:
-  - titulo: "Balanza Systel Clipse"
-    img_principal: "assets/images/sistemadepesaje/balanza-systel-clipse.webp"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Balanza Systel"
-    categoria: "Pesaje"
-    badge_texto: "PRODUCTO DESTACADO"
-  - titulo: "Balanza Comercial Systel Cuora Max - 30kg"
-    img_principal: "assets/images/sistemadepesaje/balanza comercial systel cuora max.webp"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Balanza Cuora Max"
-    categoria: "Pesaje"
-  - titulo: "Balanza Systel Croma - 31kg"
-    img_principal: "assets/images/sistemadepesaje/Balanza comercial digital Systel Croma.webp"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Balanza Croma"
-    categoria: "Pesaje"
-  - titulo: "Balanza Aura Eco Kretz"
-    img_principal: "assets/images/sistemadepesaje/Balanza Aura Eco.webp"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Balanza Aura Eco"
-    categoria: "Pesaje"
-  - titulo: "Balanza Novel Eco Kretz"
-    img_principal: "assets/images/sistemadepesaje/Balanza Novel Eco.webp"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Balanza Novel Eco"
-    categoria: "Pesaje"
-  - titulo: "Balanza Kretz Report LT 30 Kg"
-    img_principal: "assets/images/sistemadepesaje/balanza comercial digital kretz report.webp"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Balanza Kretz Report"
-    categoria: "Pesaje"
-
+  - titulo: Balanza Systel Clipse
+    img_principal: assets/images/sistemadepesaje/balanza-systel-clipse.webp
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Balanza Systel
+    categoria: Pesaje
+    badge_texto: PRODUCTO DESTACADO
+  - titulo: Balanza Comercial Systel Cuora Max - 30kg
+    img_principal: assets/images/sistemadepesaje/balanza comercial systel cuora max.webp
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Balanza Cuora Max
+    categoria: Pesaje
+  - titulo: Balanza Systel Croma - 31kg
+    img_principal: assets/images/sistemadepesaje/Balanza comercial digital Systel Croma.webp
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Balanza Croma
+    categoria: Pesaje
+  - titulo: Balanza Aura Eco Kretz
+    img_principal: assets/images/sistemadepesaje/Balanza Aura Eco.webp
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Balanza Aura Eco
+    categoria: Pesaje
+  - titulo: Balanza Novel Eco Kretz
+    img_principal: assets/images/sistemadepesaje/Balanza Novel Eco.webp
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Balanza Novel Eco
+    categoria: Pesaje
+  - titulo: Balanza Kretz Report LT 30 Kg
+    img_principal: assets/images/sistemadepesaje/balanza comercial digital kretz report.webp
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Balanza Kretz Report
+    categoria: Pesaje
 productos_carniceria_list:
-  - titulo: "Sierra Chica"
-    subcategoria: "Línea Liviana"
-    img_principal: "assets/images/carniceria/sierrachica1.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Sierra Carnicera de Mesa"
-    categoria: "Carnicería"
-    badge_texto: "PRODUCTO DESTACADO"
-  - titulo: "Embutidora"
-    subcategoria: "Línea Liviana"
-    img_principal: "assets/images/carniceria/embutidora1.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Embutidora"
-    categoria: "Carnicería"
-  - titulo: "Picadora de Carne"
-    subcategoria: "Línea Liviana"
-    img_principal: "assets/images/carniceria/picadora-de-carne-1.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Picadora de Carne"
-    categoria: "Carnicería"
-  - titulo: "Picadora de Carne 2"
-    subcategoria: "Línea Liviana"
-    img_principal: "assets/images/carniceria/picadora-de-carne-2.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Picadora de Carne"
-    categoria: "Carnicería"
-  - titulo: "Sierra Grande 1"
-    subcategoria: "Línea Pesada"
-    img_principal: "assets/images/carniceria/sierragrande1.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Sierra Carnicera 1.5 HP"
-    categoria: "Carnicería"
-  - titulo: "Sierra Grande 2"
-    subcategoria: "Línea Pesada"
-    img_principal: "assets/images/carniceria/sierragrande2.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Sierra Carnicera 2.0 HP"
-    categoria: "Carnicería"
-    
+  - titulo: Sierra Chica
+    subcategoria: Línea Liviana
+    img_principal: assets/images/carniceria/sierrachica1.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Sierra Carnicera
+      de Mesa
+    categoria: Carnicería
+    badge_texto: PRODUCTO DESTACADO
+  - titulo: Embutidora
+    subcategoria: Línea Liviana
+    img_principal: assets/images/carniceria/embutidora1.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Embutidora
+    categoria: Carnicería
+  - titulo: Picadora de Carne
+    subcategoria: Línea Liviana
+    img_principal: assets/images/carniceria/picadora-de-carne-1.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Picadora de Carne
+    categoria: Carnicería
+  - titulo: Picadora de Carne 2
+    subcategoria: Línea Liviana
+    img_principal: assets/images/carniceria/picadora-de-carne-2.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Picadora de Carne
+    categoria: Carnicería
+  - titulo: Sierra Grande 1
+    subcategoria: Línea Pesada
+    img_principal: assets/images/carniceria/sierragrande1.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Sierra Carnicera
+      1.5 HP
+    categoria: Carnicería
+  - titulo: Sierra Grande 2
+    subcategoria: Línea Pesada
+    img_principal: assets/images/carniceria/sierragrande2.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Sierra Carnicera
+      2.0 HP
+    categoria: Carnicería
 productos_panaderia_list:
-  - titulo: "Sobadora de Mesa 400mm"
-    subcategoria: "Línea Liviana"
-    img_principal: "assets/images/panaderia/liviana/liviana1.webp"
-    wa_link: "https://wa.me/5493644177499?text=Consulto por Sobadora"
-    categoria: "Panadería"
-    badge_texto: "PRODUCTO DESTACADO"
-  - titulo: "Amasadora 10 Kg Estándar"
-    subcategoria: "Línea Liviana"
-    img_principal: "assets/images/panaderia/liviana/liviana2.webp"
-    wa_link: "https://wa.me/5493644177499?text=Consulto por Amasadora 10kg"
-    categoria: "Panadería"
-  - titulo: "Amasadora 20 Kg Reforzada"
-    subcategoria: "Línea Pesada"
-    img_principal: "assets/images/panaderia/pesada/pesada1.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Consulto por Amasadora 20kg"
-    categoria: "Panadería"
-  - titulo: "Sobadora de Pie 500mm Profesional"
-    subcategoria: "Línea Pesada"
-    img_principal: "assets/images/panaderia/pesada/pesada2.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Consulto por Sobadora de Pie"
-    categoria: "Panadería"
-  - titulo: "Horno Convector 10 Estantes"
-    subcategoria: "Línea Pesada"
-    img_principal: "assets/images/panaderia/pesada/pesada3.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial"
-    categoria: "Panadería"
-  - titulo: "Horno Convector 1"
-    subcategoria: "Línea Pesada"
-    img_principal: "assets/images/panaderia/pesada/hornoconvector1.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial"
-    categoria: "Panadería"
-  - titulo: "Horno Convector 2 Brafh"
-    subcategoria: "Línea Pesada"
-    img_principal: "assets/images/panaderia/pesada/hornoconvector2.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial"
-    categoria: "Panadería"
-  - titulo: "Horno Convector 3 Brafh"
-    subcategoria: "Línea Pesada"
-    img_principal: "assets/images/panaderia/pesada/hornoconvector3.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial"
-    categoria: "Panadería"
-
+  - titulo: Sobadora de Mesa 400mm
+    subcategoria: Línea Liviana
+    img_principal: assets/images/panaderia/liviana/liviana1.webp
+    wa_link: https://wa.me/5493644177499?text=Consulto por Sobadora
+    categoria: Panadería
+    badge_texto: PRODUCTO DESTACADO
+  - titulo: Amasadora 10 Kg Estándar
+    subcategoria: Línea Liviana
+    img_principal: assets/images/panaderia/liviana/liviana2.webp
+    wa_link: https://wa.me/5493644177499?text=Consulto por Amasadora 10kg
+    categoria: Panadería
+  - titulo: Amasadora 20 Kg Reforzada
+    subcategoria: Línea Pesada
+    img_principal: assets/images/panaderia/pesada/pesada1.jpeg
+    wa_link: https://wa.me/5493644177499?text=Consulto por Amasadora 20kg
+    categoria: Panadería
+  - titulo: Sobadora de Pie 500mm Profesional
+    subcategoria: Línea Pesada
+    img_principal: assets/images/panaderia/pesada/pesada2.jpeg
+    wa_link: https://wa.me/5493644177499?text=Consulto por Sobadora de Pie
+    categoria: Panadería
+  - titulo: Horno Convector 10 Estantes
+    subcategoria: Línea Pesada
+    img_principal: assets/images/panaderia/pesada/pesada3.jpeg
+    wa_link: https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial
+    categoria: Panadería
+  - titulo: Horno Convector 1
+    subcategoria: Línea Pesada
+    img_principal: assets/images/panaderia/pesada/hornoconvector1.jpeg
+    wa_link: https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial
+    categoria: Panadería
+  - titulo: Horno Convector 2 Brafh
+    subcategoria: Línea Pesada
+    img_principal: assets/images/panaderia/pesada/hornoconvector2.jpeg
+    wa_link: https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial
+    categoria: Panadería
+  - titulo: Horno Convector 3 Brafh
+    subcategoria: Línea Pesada
+    img_principal: assets/images/panaderia/pesada/hornoconvector3.jpeg
+    wa_link: https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial
+    categoria: Panadería
 productos_exhibidores_list:
-  - titulo: "Caramelera 16 Div."
-    img_principal: "assets/images/exhibidores/caramelera-16div.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Caramelera 16 divisiones"
-    categoria: "Exhibidores"
-  - titulo: "Mostrador de Vidrio"
-    img_principal: "assets/images/exhibidores/mostrador-vidrio.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa el Mostrador de Vidrio"
-    descripcion_modal: "Disponible en medidas de 1.00m, 1.50m y 2.00m. Podés elegir mesada de vidrio o laminada según tu necesidad."
-    categoria: "Exhibidores"
-  - titulo: "Mostrador Facturero"
-    img_principal: "assets/images/exhibidores/mostrador-facturero.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa el Mostrador Facturero"
-    categoria: "Exhibidores"
-    badge_texto: "3, 5 y 6 bandejas"
-  - titulo: "Vitrina Platos Calientes"
-    img_principal: "assets/images/exhibidores/vitrina-para-platos.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Vitrina para platos calientes"
-    categoria: "Exhibidores"
-    badge_texto: "PRODUCTO DESTACADO"
-  - titulo: "Panera 2 Div."
-    img_principal: "assets/images/exhibidores/panera-2divisiones.jpeg"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Panera de 2 divisiones"
-    categoria: "Exhibidores"
+  - titulo: Caramelera 16 Div.
+    img_principal: assets/images/exhibidores/caramelera-16div.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Caramelera 16
+      divisiones
+    categoria: Exhibidores
+  - titulo: Mostrador de Vidrio
+    img_principal: assets/images/exhibidores/mostrador-vidrio.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa el Mostrador de Vidrio
+    descripcion_modal: Disponible en medidas de 1.00m, 1.50m y 2.00m. Podés elegir
+      mesada de vidrio o laminada según tu necesidad.
+    categoria: Exhibidores
+  - titulo: Mostrador Facturero
+    img_principal: assets/images/exhibidores/mostrador-facturero.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa el Mostrador Facturero
+    categoria: Exhibidores
+    badge_texto: 3, 5 y 6 bandejas
+  - titulo: Vitrina Platos Calientes
+    img_principal: assets/images/exhibidores/vitrina-para-platos.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Vitrina para
+      platos calientes
+    categoria: Exhibidores
+    badge_texto: PRODUCTO DESTACADO
+  - titulo: miqueasvico
+    img_principal: assets/images/exhibidores/panera-2divisiones.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Panera de 2
+      divisiones
+    categoria: Exhibidores
