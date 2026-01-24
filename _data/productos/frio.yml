@@ -1,1 +1,51 @@
+productos_list:
+  - titulo: "Conservadora para helados FAM 12 Tachos"
+    img_principal: "assets/images/frio/conservadora-para-helados-12tachos.png"
+    wa_link: "https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 12 tachos"
+    categoria: "Frío"
+    badge_texto: "PRODUCTO DESTACADO"
 
+  - titulo: "Conservadora para helados FAM 16 Tachos"
+    img_principal: "assets/images/frio/conservadora-para-helados-16-tachos-foto1.webp"
+    wa_link: "https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 16 tachos"
+    categoria: "Frío"
+
+  - titulo: "Conservadora para helados FAM 18 Tachos"
+    img_principal: "assets/images/frio/conservadora-para-helados-18-tachos-foto1.webp"
+    wa_link: "https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 18 tachos"
+    categoria: "Frío"
+
+  - titulo: "Conservadora para helados FAM 22 Tachos"
+    img_principal: "assets/images/frio/conservadora-para-helados-22-tachos-foto1.webp"
+    wa_link: "https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 22 tachos"
+    categoria: "Frío"
+
+  - titulo: "Heladera Carnicera (Ganchera)"
+    img_principal: "assets/images/frio/heladera-carnicera.jpeg"
+    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Heladera Carnicera"
+    categoria: "Frío"
+
+  - titulo: "Mini Cámara Frigorífica"
+    img_principal: "assets/images/frio/mini-camaras.jpeg"
+    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa consultar el stock de la Mini Cámara"
+    categoria: "Frío"
+
+  - titulo: "Heladera Exhibidora"
+    img_principal: "assets/images/frio/heladera-vitrina1.jpeg"
+    wa_link: "https://wa.me/5493644177499?text=Hola Néstor! Quiero consultar stock de la Heladera Exhibidora Vertical"
+    categoria: "Frío"
+
+  - titulo: "Heladera Exhibidora Doble Puerta"
+    img_principal: "assets/images/frio/heladera-vitrina2.jpeg"
+    wa_link: "https://wa.me/5493644177499?text=Hola Néstor! Quiero consultar stock de la Heladera Exhibidora Doble Puerta"
+    categoria: "Frío"
+
+  - titulo: "Heladera Exhibidora 370 Lts"
+    img_principal: "assets/images/frio/heladera-exhibidora-vertical1.jpeg"
+    wa_link: "https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la Exhibidora de 370 Lts"
+    categoria: "Frío"
+
+  - titulo: "Heladera Exhibidora 470 Lts"
+    img_principal: "assets/images/frio/heladera-exhibidora-vertical2.jpeg"
+    wa_link: "https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la Exhibidora de 470 Lts"
+    categoria: "Frío"
