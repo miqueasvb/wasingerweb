@@ -1086,78 +1086,23 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="content-gastro" role="tabpanel">
-                        <div class="product-grid">
-                            <div class="product-card">
-    <img src="assets/images/gastronomia/spiedo-calabro-12-pollos.png" alt="Spiedo 12 Rollos Calabro">
-    <h5>Spiedo 12 Rollos Calabro</h5>
-    <a href="https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 12 rollos Calabro" target="_blank" class="btn-wa-card">
-        <i class="fab fa-whatsapp"></i> CONSULTAR
-    </a>
+    <div class="tab-pane fade" id="content-gastro" role="tabpanel">
+    <div class="product-grid">
+        {% assign productos_gastro = site.data.productos_content.productos_list | where: "categoria", "Gastronomía" %}
+        {% for p in productos_gastro %}
+            <div class="product-card">
+                {% if p.badge_texto != "" and p.badge_texto != nil %}
+                    <span class="badge-disponible">{{ p.badge_texto }}</span>
+                {% endif %}
+                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
+                <h5>{{ p.titulo }}</h5>
+                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card">
+                    <i class="fab fa-whatsapp"></i> CONSULTAR
+                </a>
+            </div>
+        {% endfor %}
+    </div>
 </div>
-
-<div class="product-card">
-    <img src="assets/images/gastronomia/spiedo-calabro-24-pollos.png" alt="Spiedo 24 Rollos Calabro">
-    <h5>Spiedo 24 Rollos Calabro</h5>
-    <a href="https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 24 rollos Calabro" target="_blank" class="btn-wa-card">
-        <i class="fab fa-whatsapp"></i> CONSULTAR
-    </a>
-</div>
-                            <div class="product-card">
-                                <span class="badge-disponible">PRODUCTO DESTACADO</span>
-                                <img src="assets/images/gastronomia/cocinaindustrial1.jpeg">
-                                <h5>Cocina Industrial Pesada</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Industrial Pesada" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/cocina-semi-industriales.jpeg">
-                                <h5>Cocina Semi-Industrial</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Semi-Industrial" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/freidora1.jpeg">
-                                <h5>Freidora Automática</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Freidora" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/hornopizzero1.jpeg">
-                                <h5>Hornos Pizzeros y Pasteleros</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa el Horno Pizzero/Pastelero" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/horno-pollospiedo.jpeg">
-                                <h5>Horno para Pollos al Spiedo</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa el Horno para Pollos al Spiedo" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/carlitera1.jpeg">
-                                <h5>Carlitera con Carritero</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Carlitera" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/panchera1.jpeg">
-                                <h5>Panchera con Calienta Pan</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Panchera" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-            <img src="assets/images/gastronomia/panchera-con-carlitera1.jpg" alt="Panchera con Carlitera">
-            <h5>Panchera Simple con Carlitera</h5>
-            <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Panchera simple con carlitera" target="_blank" class="btn-wa-card">
-                <i class="fab fa-whatsapp"></i> CONSULTAR
-            </a>
-        </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/panchera2.jpeg">
-                                <h5>Panchera Eléctrica Estándar</h5> 
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa el segundo modelo de Panchera" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/lomitera1.jpeg">
-                                <h5>Lomitera / Plancha Profesional</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Lomitera/Plancha" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="tab-pane fade" id="content-carniceria" role="tabpanel">
                         
@@ -1834,4 +1779,5 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
   </body>
+
 </html>
