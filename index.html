@@ -1019,115 +1019,40 @@
     </div>
 </div>
 
-                    <div class="tab-pane fade" id="content-carniceria" role="tabpanel">
-                        
-                        <div class="d-flex align-items-center mb-3 mt-2">
-                            <h5 style="color: #2a2a2a; font-weight: 700; text-transform: uppercase; margin: 0;">Línea Liviana</h5>
-                            <span style="height: 1px; background: #e0e0e0; flex-grow: 1; margin-left: 15px;"></span>
-                        </div>
+                   <div class="tab-pane fade" id="content-carniceria" role="tabpanel">
+    
+    <div class="d-flex align-items-center mb-3 mt-2">
+        <h5 style="color: #2a2a2a; font-weight: 700; text-transform: uppercase; margin: 0;">Línea Liviana</h5>
+        <span style="height: 1px; background: #e0e0e0; flex-grow: 1; margin-left: 15px;"></span>
+    </div>
+    <div class="product-grid mb-4">
+        {% assign liviana = site.data.productos_content.productos_carniceria_list | where: "subcategoria", "Línea Liviana" %}
+        {% for p in liviana %}
+            <div class="product-card">
+                {% if p.badge_texto != "" and p.badge_texto != nil %}<span class="badge-disponible">{{ p.badge_texto }}</span>{% endif %}
+                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
+                <h5>{{ p.titulo }}</h5>
+                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
+            </div>
+        {% endfor %}
+    </div>
 
-                        <div class="product-grid mb-4">
-                            <div class="product-card">
-                                <span class="badge-disponible">PRODUCTO DESTACADO</span>
-                                <img src="assets/images/carniceria/sierrachica1.jpeg">
-                                <h5>Sierra Chica</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Sierra Carnicera de Mesa" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/carniceria/embutidora1.jpeg">
-                                <h5>Embutidora</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Embutidora" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/carniceria/picadora-de-carne-1.jpeg">
-                                <h5>Picadora de Carne</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Picadora de Carne" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/carniceria/picadora-de-carne-2.jpeg">
-                                <h5>Picadora de Carne 2</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Picadora de Carne" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                        </div>
-
-                        <div class="d-flex align-items-center mb-3 mt-4">
-                            <h5 style="color: #2a2a2a; font-weight: 700; text-transform: uppercase; margin: 0;">Línea Pesada</h5>
-                            <span style="height: 1px; background: #e0e0e0; flex-grow: 1; margin-left: 15px;"></span>
-                        </div>
-
-                        <div class="product-grid">
-                            <div class="product-card">
-                                <img src="assets/images/carniceria/sierragrande1.jpeg">
-                                <h5>Sierra Grande 1</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Sierra Carnicera 1.5 HP" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/carniceria/sierragrande2.jpeg">
-                                <h5>Sierra Grande 2</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Sierra Carnicera 2.0 HP" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="content-panaderia" role="tabpanel">
-                        
-                        <div class="d-flex align-items-center mb-3 mt-2">
-                            <h5 style="color: #2a2a2a; font-weight: 700; text-transform: uppercase; margin: 0;">Línea Liviana</h5>
-                            <span style="height: 1px; background: #e0e0e0; flex-grow: 1; margin-left: 15px;"></span>
-                        </div>
-
-                        <div class="product-grid mb-4">
-                            <div class="product-card">
-                                <span class="badge-disponible">PRODUCTO DESTACADO</span>
-                                <img src="assets/images/panaderia/liviana/liviana1.webp">
-                                <h5>Sobadora de Mesa 400mm</h5>
-                                <a href="https://wa.me/5493644177499?text=Consulto por Sobadora" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/panaderia/liviana/liviana2.webp"> <h5>Amasadora 10 Kg Estándar</h5>
-                                <a href="https://wa.me/5493644177499?text=Consulto por Amasadora 10kg" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                        </div>
-
-                        <div class="d-flex align-items-center mb-3 mt-4">
-                            <h5 style="color: #2a2a2a; font-weight: 700; text-transform: uppercase; margin: 0;">Línea Pesada</h5>
-                            <span style="height: 1px; background: #e0e0e0; flex-grow: 1; margin-left: 15px;"></span>
-                        </div>
-
-                        <div class="product-grid">
-                            <div class="product-card">
-                                <img src="assets/images/panaderia/pesada/pesada1.jpeg">
-                                <h5>Amasadora 20 Kg Reforzada</h5>
-                                <a href="https://wa.me/5493644177499?text=Consulto por Amasadora 20kg" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/panaderia/pesada/pesada2.jpeg">
-                                <h5>Sobadora de Pie 500mm Profesional</h5>
-                                <a href="https://wa.me/5493644177499?text=Consulto por Sobadora de Pie" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/panaderia/pesada/pesada3.jpeg">
-                                <h5>Horno Convector 10 Estantes</h5>
-                                <a href="https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/panaderia/pesada/hornoconvector1.jpeg">
-                                <h5>Horno Convector 1</h5>
-                                <a href="https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/panaderia/pesada/hornoconvector2.jpeg">
-                                <h5>Horno Convector 2 Brafh</h5>
-                                <a href="https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/panaderia/pesada/hornoconvector3.jpeg">
-                                <h5>Horno Convector 3 Brafh</h5>
-                                <a href="https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                        </div>
-                    </div>
-
+    <div class="d-flex align-items-center mb-3 mt-4">
+        <h5 style="color: #2a2a2a; font-weight: 700; text-transform: uppercase; margin: 0;">Línea Pesada</h5>
+        <span style="height: 1px; background: #e0e0e0; flex-grow: 1; margin-left: 15px;"></span>
+    </div>
+    <div class="product-grid">
+        {% assign pesada = site.data.productos_content.productos_carniceria_list | where: "subcategoria", "Línea Pesada" %}
+        {% for p in pesada %}
+            <div class="product-card">
+                {% if p.badge_texto != "" and p.badge_texto != nil %}<span class="badge-disponible">{{ p.badge_texto }}</span>{% endif %}
+                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
+                <h5>{{ p.titulo }}</h5>
+                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
 <div class="tab-pane fade" id="content-exhibidores" role="tabpanel">
     <div class="product-grid">
         <div class="product-card">
@@ -1707,6 +1632,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   </body>
 </html>
+
 
 
 
