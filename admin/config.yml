@@ -1,8 +1,15 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images/productos"
+public_folder: "assets/images/productos"
+
 collections:
   - name: "catalogo"
-    label: "📁 Catálogo - www.equipamientodenegocios.com.ar"
+    label: "📁 Gestión del Catálogo"
     files:
-      - name: "frio_entry"
+      - name: "frio_archivo"
         label: "❄️ Línea de Frío"
         file: "_data/productos_content.yml"
         fields:
@@ -17,7 +24,7 @@ collections:
               - { label: "Categoría", name: "categoria", widget: "hidden", default: "Frío" }
               - { label: "Badge", name: "badge_texto", widget: "string", required: false }
 
-      - name: "gastro_entry"
+      - name: "gastro_archivo"
         label: "🔥 Gastronomía"
         file: "_data/productos_content.yml"
         fields:
@@ -32,7 +39,7 @@ collections:
               - { label: "Categoría", name: "categoria", widget: "hidden", default: "Gastronomía" }
               - { label: "Badge", name: "badge_texto", widget: "string", required: false }
 
-      - name: "pesaje_entry"
+      - name: "pesaje_archivo"
         label: "⚖️ Sistemas de Pesaje"
         file: "_data/productos_content.yml"
         fields:
@@ -46,7 +53,7 @@ collections:
               - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
               - { label: "Categoría", name: "categoria", widget: "hidden", default: "Pesaje" }
 
-      - name: "carniceria_entry"
+      - name: "carniceria_archivo"
         label: "🥩 Línea Carnicería"
         file: "_data/productos_content.yml"
         fields:
@@ -60,7 +67,7 @@ collections:
               - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
               - { label: "Categoría", name: "categoria", widget: "hidden", default: "Carnicería" }
 
-      - name: "panaderia_entry"
+      - name: "panaderia_archivo"
         label: "🥖 Línea Panadería"
         file: "_data/productos_content.yml"
         fields:
@@ -74,7 +81,7 @@ collections:
               - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
               - { label: "Categoría", name: "categoria", widget: "hidden", default: "Panadería" }
 
-      - name: "exhibidores_entry"
+      - name: "exhibidores_archivo"
         label: "🏪 Exhibidores"
         file: "_data/productos_content.yml"
         fields:
