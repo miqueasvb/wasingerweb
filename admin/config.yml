@@ -1,23 +1,73 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: main # Asegúrate de que coincida con tu rama principal
 
-media_folder: "assets/images/productos"
+media_folder: "assets/images/productos" # Carpeta donde se guardarán las imágenes nuevas
 public_folder: "assets/images/productos"
 
 collections:
-  - name: "catalogo"
-    label: "Catálogo de Productos"
-    files:
-      - file: "_data/productos_content.yml"
-        label: "Editar Productos"
-        name: "productos_datos"
-        fields:
-          - label: "Lista de Productos"
-            name: "productos_list"
-            widget: "list"
-            fields:
-              - {label: "Nombre del Producto", name: "titulo", widget: "string"}
-              - {label: "Categoría", name: "categoria", widget: "select", options: ["Línea de Frío", "Gastronomía", "Sistemas de Pesaje", "Línea Carnicería", "Línea Panadería", "Exhibidores"]}
-              - {label: "Imagen", name: "img_principal", widget: "image"}
-              - {label: "Link WhatsApp", name: "wa_link", widget: "string", default: "https://wa.me/5493644177499"}
+  - name: "frio"
+    label: "❄️ Línea de Frío"
+    folder: "_data/productos/frio"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "titulo", widget: "string" }
+      - { label: "Imagen", name: "img_principal", widget: "image" }
+      - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
+      - { label: "Badge (Ej: DESTACADO)", name: "badge_texto", widget: "string", required: false }
+
+  - name: "pesaje"
+    label: "⚖️ Sistemas de Pesaje"
+    folder: "_data/productos/pesaje"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "titulo", widget: "string" }
+      - { label: "Imagen", name: "img_principal", widget: "image" }
+      - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
+      - { label: "Badge", name: "badge_texto", widget: "string", required: false }
+
+  - name: "gastronomia"
+    label: "🔥 Gastronomía"
+    folder: "_data/productos/gastronomia"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "titulo", widget: "string" }
+      - { label: "Imagen", name: "img_principal", widget: "image" }
+      - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
+      - { label: "Badge", name: "badge_texto", widget: "string", required: false }
+
+  - name: "carniceria"
+    label: "🥩 Línea Carnicería"
+    folder: "_data/productos/carniceria"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "titulo", widget: "string" }
+      - { label: "Imagen", name: "img_principal", widget: "image" }
+      - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
+      - { label: "Badge", name: "badge_texto", widget: "string", required: false }
+
+  - name: "panaderia"
+    label: "🥖 Línea Panadería"
+    folder: "_data/productos/panaderia"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "titulo", widget: "string" }
+      - { label: "Imagen", name: "img_principal", widget: "image" }
+      - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
+      - { label: "Badge", name: "badge_texto", widget: "string", required: false }
+
+  - name: "exhibidores"
+    label: "🏪 Exhibidores"
+    folder: "_data/productos/exhibidores"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "titulo", widget: "string" }
+      - { label: "Imagen", name: "img_principal", widget: "image" }
+      - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
+      - { label: "Badge", name: "badge_texto", widget: "string", required: false }
