@@ -189,7 +189,7 @@ productos_exhibidores_list:
       divisiones
     categoria: Exhibidores
   - titulo: Mostrador de Vidrio
-    img_principal: assets/images/exhibidores/mostrador-vidrio.jpeg
+    img_principal: assets/images/productos/mostrador-de-vidrio.jpeg
     wa_link: https://wa.me/5493644177499?text=Hola! Me interesa el Mostrador de Vidrio
     descripcion_modal: Disponible en medidas de 1.00m, 1.50m y 2.00m. Podés elegir
       mesada de vidrio o laminada según tu necesidad.
