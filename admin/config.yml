@@ -6,14 +6,14 @@ media_folder: "assets/images/productos"
 public_folder: "assets/images/productos"
 
 collections:
-  - name: "catalogo"
-    label: "📁 Gestión del Catálogo"
+  - name: "frio_seccion"
+    label: "❄️ Línea de Frío"
     files:
-      - name: "frio_archivo"
-        label: "❄️ Línea de Frío"
+      - name: "frio_datos"
+        label: "Lista de Frío"
         file: "_data/productos_content.yml"
         fields:
-          - label: "Lista de Productos Frío"
+          - label: "Productos de Frío"
             name: "productos_frio_list"
             widget: "list"
             summary: '{{fields.titulo}}'
@@ -24,11 +24,14 @@ collections:
               - { label: "Categoría", name: "categoria", widget: "hidden", default: "Frío" }
               - { label: "Badge", name: "badge_texto", widget: "string", required: false }
 
-      - name: "gastro_archivo"
-        label: "🔥 Gastronomía"
+  - name: "gastro_seccion"
+    label: "🔥 Gastronomía"
+    files:
+      - name: "gastro_datos"
+        label: "Lista de Gastronomía"
         file: "_data/productos_content.yml"
         fields:
-          - label: "Lista de Productos Gastronomía"
+          - label: "Productos de Gastronomía"
             name: "productos_list"
             widget: "list"
             summary: '{{fields.titulo}}'
@@ -39,11 +42,14 @@ collections:
               - { label: "Categoría", name: "categoria", widget: "hidden", default: "Gastronomía" }
               - { label: "Badge", name: "badge_texto", widget: "string", required: false }
 
-      - name: "pesaje_archivo"
-        label: "⚖️ Sistemas de Pesaje"
+  - name: "pesaje_seccion"
+    label: "⚖️ Sistemas de Pesaje"
+    files:
+      - name: "pesaje_datos"
+        label: "Lista de Pesaje"
         file: "_data/productos_content.yml"
         fields:
-          - label: "Lista de Productos Pesaje"
+          - label: "Productos de Pesaje"
             name: "productos_pesaje_list"
             widget: "list"
             summary: '{{fields.titulo}}'
@@ -53,11 +59,14 @@ collections:
               - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
               - { label: "Categoría", name: "categoria", widget: "hidden", default: "Pesaje" }
 
-      - name: "carniceria_archivo"
-        label: "🥩 Línea Carnicería"
+  - name: "carniceria_seccion"
+    label: "🥩 Línea Carnicería"
+    files:
+      - name: "carniceria_datos"
+        label: "Lista de Carnicería"
         file: "_data/productos_content.yml"
         fields:
-          - label: "Lista de Productos Carnicería"
+          - label: "Productos de Carnicería"
             name: "productos_carniceria_list"
             widget: "list"
             summary: '{{fields.titulo}}'
@@ -67,11 +76,14 @@ collections:
               - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
               - { label: "Categoría", name: "categoria", widget: "hidden", default: "Carnicería" }
 
-      - name: "panaderia_archivo"
-        label: "🥖 Línea Panadería"
+  - name: "panaderia_seccion"
+    label: "🥖 Línea Panadería"
+    files:
+      - name: "panaderia_datos"
+        label: "Lista de Panadería"
         file: "_data/productos_content.yml"
         fields:
-          - label: "Lista de Productos Panadería"
+          - label: "Productos de Panadería"
             name: "productos_panaderia_list"
             widget: "list"
             summary: '{{fields.titulo}}'
@@ -81,11 +93,14 @@ collections:
               - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
               - { label: "Categoría", name: "categoria", widget: "hidden", default: "Panadería" }
 
-      - name: "exhibidores_archivo"
-        label: "🏪 Exhibidores"
+  - name: "exhibidores_seccion"
+    label: "🏪 Exhibidores"
+    files:
+      - name: "exhibidores_datos"
+        label: "Lista de Exhibidores"
         file: "_data/productos_content.yml"
         fields:
-          - label: "Lista de Productos Exhibidores"
+          - label: "Productos de Exhibidores"
             name: "productos_exhibidores_list"
             widget: "list"
             summary: '{{fields.titulo}}'
