@@ -1,16 +1,23 @@
-backend:
-  name: git-gateway
-  branch: main
-
-media_folder: "assets/images/productos"
-public_folder: "assets/images/productos"
-
 collections:
   - name: "catalogo"
-    label: "📁 Mi Catálogo"
+    label: "📁 Catálogo - www.equipamientodenegocios.com.ar"
     files:
-      # ESTA ES LA ÚNICA QUE VAMOS A EDITAR POR AHORA
-      - name: "gastronomia"
+      - name: "frio_entry"
+        label: "❄️ Línea de Frío"
+        file: "_data/productos_content.yml"
+        fields:
+          - label: "Lista de Productos Frío"
+            name: "productos_frio_list"
+            widget: "list"
+            summary: '{{fields.titulo}}'
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Imagen", name: "img_principal", widget: "image" }
+              - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
+              - { label: "Categoría", name: "categoria", widget: "hidden", default: "Frío" }
+              - { label: "Badge", name: "badge_texto", widget: "string", required: false }
+
+      - name: "gastro_entry"
         label: "🔥 Gastronomía"
         file: "_data/productos_content.yml"
         fields:
@@ -25,42 +32,58 @@ collections:
               - { label: "Categoría", name: "categoria", widget: "hidden", default: "Gastronomía" }
               - { label: "Badge", name: "badge_texto", widget: "string", required: false }
 
-# AHORA ACTIVAMOS FRÍO
-      - name: "frio"
-        label: "❄️ Línea de Frío"
+      - name: "pesaje_entry"
+        label: "⚖️ Sistemas de Pesaje"
         file: "_data/productos_content.yml"
         fields:
-          - label: "Productos de Línea de Frío"
-            name: "productos_list"
+          - label: "Lista de Productos Pesaje"
+            name: "productos_pesaje_list"
             widget: "list"
             summary: '{{fields.titulo}}'
             fields:
               - { label: "Título", name: "titulo", widget: "string" }
               - { label: "Imagen", name: "img_principal", widget: "image" }
               - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
-              - { label: "Categoría", name: "categoria", widget: "hidden", default: "Frío" }
-              - { label: "Badge (Ej: DESTACADO)", name: "badge_texto", widget: "string", required: false }
+              - { label: "Categoría", name: "categoria", widget: "hidden", default: "Pesaje" }
 
-      - name: "pesaje"
-        label: "⚖️ Sistemas de Pesaje"
-        file: "_data/productos_content.yml"
-        fields:
-          - { label: "Próximamente", name: "info", widget: "hidden", default: "Pronto" }
-
-      - name: "carniceria"
+      - name: "carniceria_entry"
         label: "🥩 Línea Carnicería"
         file: "_data/productos_content.yml"
         fields:
-          - { label: "Próximamente", name: "info", widget: "hidden", default: "Pronto" }
+          - label: "Lista de Productos Carnicería"
+            name: "productos_carniceria_list"
+            widget: "list"
+            summary: '{{fields.titulo}}'
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Imagen", name: "img_principal", widget: "image" }
+              - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
+              - { label: "Categoría", name: "categoria", widget: "hidden", default: "Carnicería" }
 
-      - name: "panaderia"
+      - name: "panaderia_entry"
         label: "🥖 Línea Panadería"
         file: "_data/productos_content.yml"
         fields:
-          - { label: "Próximamente", name: "info", widget: "hidden", default: "Pronto" }
+          - label: "Lista de Productos Panadería"
+            name: "productos_panaderia_list"
+            widget: "list"
+            summary: '{{fields.titulo}}'
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Imagen", name: "img_principal", widget: "image" }
+              - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
+              - { label: "Categoría", name: "categoria", widget: "hidden", default: "Panadería" }
 
-      - name: "exhibidores"
+      - name: "exhibidores_entry"
         label: "🏪 Exhibidores"
         file: "_data/productos_content.yml"
         fields:
-          - { label: "Próximamente", name: "info", widget: "hidden", default: "Pronto" }
+          - label: "Lista de Productos Exhibidores"
+            name: "productos_exhibidores_list"
+            widget: "list"
+            summary: '{{fields.titulo}}'
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Imagen", name: "img_principal", widget: "image" }
+              - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
+              - { label: "Categoría", name: "categoria", widget: "hidden", default: "Exhibidores" }
