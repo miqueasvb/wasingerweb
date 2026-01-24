@@ -964,7 +964,7 @@
 
                 <div class="tab-content" id="v-pills-tabContent" style="min-height: 500px;">
                     
-                  <div class="tab-pane fade show active" id="content-frio" role="tabpanel">
+                    <div class="tab-pane fade show active" id="content-frio" role="tabpanel">
                         <div class="product-grid">
                             <div class="product-card">
                                 <span class="badge-disponible">PRODUCTO DESTACADO</span>
@@ -975,83 +975,6 @@
                                     <i class="fab fa-whatsapp"></i> CONSULTAR
                                 </a>
                             </div>
-
-                            <div class="product-card">
-                                <img src="assets/images/frio/conservadora-para-helados-16-tachos-foto1.webp">
-                                <h5>Conservadora para helados FAM 16 Tachos</h5>
-                                <p class="small text-muted">Largo: 1.32 mts</p>
-                                <a href="https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 16 tachos" target="_blank" class="btn-wa-card">
-                                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                                </a>
-                            </div>
-
-                            <div class="product-card">
-                                <img src="assets/images/frio/conservadora-para-helados-18-tachos-foto1.webp">
-                                <h5>Conservadora para helados FAM 18 Tachos</h5>
-                                <p class="small text-muted">Largo: 1.58 mts</p>
-                                <a href="https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 18 tachos" target="_blank" class="btn-wa-card">
-                                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                                </a>
-                            </div>
-
-                            <div class="product-card">
-                                <img src="assets/images/frio/conservadora-para-helados-22-tachos-foto1.webp">
-                                <h5>Conservadora para helados FAM 22 Tachos</h5>
-                                <p class="small text-muted">Largo: 2.07 mts</p> 
-                                <a href="https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 22 tachos" target="_blank" class="btn-wa-card">
-                                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                                </a>
-                            </div>
-
-                            <div class="product-card">
-                                <img src="assets/images/frio/heladera-carnicera.jpeg">
-                                <h5>Heladera Carnicera (Ganchera)</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Heladera Carnicera" target="_blank" class="btn-wa-card">
-                                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                                </a>
-                            </div>
-
-                            <div class="product-card">
-                                <img src="assets/images/frio/mini-camaras.jpeg">
-                                <h5>Mini Cámara Frigorífica</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa consultar el stock de la Mini Cámara" target="_blank" class="btn-wa-card">
-                                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                                </a>
-                            </div>
-
-                            <div class="product-card">
-                                <img src="assets/images/frio/heladera-vitrina1.jpeg">
-                                <h5>Heladera Exhibidora</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola Néstor! Quiero consultar stock de la Heladera Exhibidora Vertical" target="_blank" class="btn-wa-card">
-                                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                                </a>
-                            </div>
-
-                            <div class="product-card">
-                                <img src="assets/images/frio/heladera-vitrina2.jpeg">
-                                <h5>Heladera Exhibidora Doble Puerta</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola Néstor! Quiero consultar stock de la Heladera Exhibidora Doble Puerta" target="_blank" class="btn-wa-card">
-                                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                                </a>
-                            </div>
-
-                            <div class="product-card">
-                                <img src="assets/images/frio/heladera-exhibidora-vertical1.jpeg">
-                                <h5>Heladera Exhibidora 370 Lts</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la Exhibidora de 370 Lts" target="_blank" class="btn-wa-card">
-                                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                                </a>
-                            </div>
-
-                            <div class="product-card">
-                                <img src="assets/images/frio/heladera-exhibidora-vertical2.jpeg">
-                                <h5>Heladera Exhibidora 470 Lts</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la Exhibidora de 470 Lts" target="_blank" class="btn-wa-card">
-                                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                                </a>
-                            </div>
-                        </div>
-                    </div>
 
                             <div class="product-card">
                                 <img src="assets/images/frio/conservadora-para-helados-16-tachos-foto1.webp">
@@ -1167,77 +1090,19 @@
                     </div>
 
                     <div class="tab-pane fade" id="content-gastro" role="tabpanel">
-                        <div class="product-grid">
-                            <div class="product-card">
-    <img src="assets/images/gastronomia/spiedo-calabro-12-pollos.png" alt="Spiedo 12 Rollos Calabro">
-    <h5>Spiedo 12 Rollos Calabro</h5>
-    <a href="https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 12 rollos Calabro" target="_blank" class="btn-wa-card">
-        <i class="fab fa-whatsapp"></i> CONSULTAR
-    </a>
+    <div class="product-grid">
+        {% assign productos_gastro = site.data.productos_content.productos_list | where: "categoria", "Gastronomía" %}
+        {% for p in productos_gastro %}
+            <div class="product-card">
+                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
+                <h5>{{ p.titulo }}</h5>
+                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card">
+                    <i class="fab fa-whatsapp"></i> CONSULTAR
+                </a>
+            </div>
+        {% endfor %}
+    </div>
 </div>
-
-<div class="product-card">
-    <img src="assets/images/gastronomia/spiedo-calabro-24-pollos.png" alt="Spiedo 24 Rollos Calabro">
-    <h5>Spiedo 24 Rollos Calabro</h5>
-    <a href="https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 24 rollos Calabro" target="_blank" class="btn-wa-card">
-        <i class="fab fa-whatsapp"></i> CONSULTAR
-    </a>
-</div>
-                            <div class="product-card">
-                                <span class="badge-disponible">PRODUCTO DESTACADO</span>
-                                <img src="assets/images/gastronomia/cocinaindustrial1.jpeg">
-                                <h5>Cocina Industrial Pesada</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Industrial Pesada" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/cocina-semi-industriales.jpeg">
-                                <h5>Cocina Semi-Industrial</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Semi-Industrial" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/freidora1.jpeg">
-                                <h5>Freidora Automática</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Freidora" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/hornopizzero1.jpeg">
-                                <h5>Hornos Pizzeros y Pasteleros</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa el Horno Pizzero/Pastelero" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/horno-pollospiedo.jpeg">
-                                <h5>Horno para Pollos al Spiedo</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa el Horno para Pollos al Spiedo" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/carlitera1.jpeg">
-                                <h5>Carlitera con Carritero</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Carlitera" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/panchera1.jpeg">
-                                <h5>Panchera con Calienta Pan</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Panchera" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-            <img src="assets/images/gastronomia/panchera-con-carlitera1.jpg" alt="Panchera con Carlitera">
-            <h5>Panchera Simple con Carlitera</h5>
-            <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Panchera simple con carlitera" target="_blank" class="btn-wa-card">
-                <i class="fab fa-whatsapp"></i> CONSULTAR
-            </a>
-        </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/panchera2.jpeg">
-                                <h5>Panchera Eléctrica Estándar</h5> 
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa el segundo modelo de Panchera" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                            <div class="product-card">
-                                <img src="assets/images/gastronomia/lomitera1.jpeg">
-                                <h5>Lomitera / Plancha Profesional</h5>
-                                <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Lomitera/Plancha" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="tab-pane fade" id="content-carniceria" role="tabpanel">
                         
@@ -1927,6 +1792,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   </body>
 </html>
+
 
 
 
