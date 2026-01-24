@@ -1,0 +1,15 @@
+# Archivo: _config.yml para Equipamiento de Negocios
+
+theme: null
+
+plugins:
+  - jekyll-seo-tag 
+  - jekyll-feed 
+
+baseurl: ""
+url: "https://www.equipamientodenegocios.com.ar" 
+
+title: Equipamiento de Negocios - Néstor Wasinger
+description: Venta de equipamiento comercial, línea de frío, gastronomía y sistemas de pesaje en Presidencia Roque Sáenz Peña, Chaco.
+
+encoding: utf-8
