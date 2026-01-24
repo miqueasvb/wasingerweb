@@ -1089,13 +1089,19 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="content-gastro" role="tabpanel">
+                   <div class="tab-pane fade" id="content-gastro" role="tabpanel">
     <div class="product-grid">
         {% assign productos_gastro = site.data.productos_content.productos_list | where: "categoria", "Gastronomía" %}
+        
         {% for p in productos_gastro %}
             <div class="product-card">
+                {% if p.badge_texto != "" and p.badge_texto != nil %}
+                    <span class="badge-disponible">{{ p.badge_texto }}</span>
+                {% endif %}
+                
                 <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
                 <h5>{{ p.titulo }}</h5>
+                
                 <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card">
                     <i class="fab fa-whatsapp"></i> CONSULTAR
                 </a>
@@ -1792,6 +1798,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   </body>
 </html>
+
 
 
 
