@@ -1,30 +1,25 @@
 productos_list:
-  - titulo: Spiedo 12 Rollos Calabro
-    categoria: Gastronomía
-    img_principal: assets/images/gastronomia/spiedo-calabro-12-pollos.png
-    badge_texto: ""
-    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 12
-      rollos Calabro
-  - titulo: Spiedo 24 Rollos Calabro
-    categoria: Gastronomía
-    img_principal: assets/images/gastronomia/spiedo-calabro-24-pollos.png
-    badge_texto: ""
-    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 24
-      rollos Calabro
-  - titulo: Cocina Industrial Pesada
-    categoria: Gastronomía
-    img_principal: assets/images/gastronomia/cocinaindustrial1.jpeg
-    badge_texto: PRODUCTO DESTACADO
-    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Industrial
-      Pesada
-  - titulo: Cocina Semi-Industrial
-    categoria: Gastronomía
-    img_principal: assets/images/gastronomia/cocina-semi-industriales.jpeg
-    badge_texto: ""
-    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Cocina
-      Semi-Industrial
-  - titulo: Freidora Automática
-    categoria: Sistemas de Pesaje
-    img_principal: assets/images/gastronomia/freidora1.jpeg
-    badge_texto: ""
-    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Freidora
+  - titulo: "Freidora Automática"
+    categoria: "Sistemas de Pesaje"
+    img_principal: "assets/images/gastronomia/freidora-automatica.jpeg"
+    wa_link: "https://wa.me/5493644177499"
+  - titulo: "Sierra Chica"
+    categoria: "Línea Carnicería"
+    img_principal: "assets/images/carniceria/sierrachica1.jpeg"
+    wa_link: "https://wa.me/5493644177499"
+  - titulo: "Sierra Grande 1"
+    categoria: "Línea Carnicería"
+    img_principal: "assets/images/carniceria/sierragrande1.jpeg"
+    wa_link: "https://wa.me/5493644177499"
+  - titulo: "Balanza Systel Clipse"
+    categoria: "Sistemas de Pesaje"
+    img_principal: "assets/images/sistemadepesaje/balanza-systel-clipse.webp"
+    wa_link: "https://wa.me/5493644177499"
+  - titulo: "Sobadora de Mesa 400mm"
+    categoria: "Línea Panadería"
+    img_principal: "assets/images/panaderia/liviana/liviana1.webp"
+    wa_link: "https://wa.me/5493644177499"
+  - titulo: "Caramelera 16 Div."
+    categoria: "Exhibidores"
+    img_principal: "assets/images/exhibidores/caramelera-16div.jpeg"
+    wa_link: "https://wa.me/5493644177499"
