@@ -964,17 +964,21 @@
 
                 <div class="tab-content" id="v-pills-tabContent" style="min-height: 500px;">
                     
-                    <div class="tab-pane fade show active" id="content-frio" role="tabpanel">
-                        <div class="product-grid">
-                            <div class="product-card">
-                                <span class="badge-disponible">PRODUCTO DESTACADO</span>
-                                <img src="assets/images/frio/conservadora-para-helados-12tachos.png">
-                                <h5>Conservadora para helados FAM 12 Tachos</h5>
-                                <p class="small text-muted">Largo: 1.08 mts</p>
-                                <a href="https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 12 tachos" target="_blank" class="btn-wa-card">
-                                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                                </a>
-                            </div>
+   <div class="tab-pane fade show active" id="content-frio" role="tabpanel">
+    <div class="product-grid">
+        {% assign productos_frio = site.data.productos_content.productos_list | where: "categoria", "Línea de Frío" %}
+        {% for p in productos_frio %}
+        <div class="product-card">
+            <span class="badge-disponible">DISPONIBLE</span>
+            <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
+            <h5>{{ p.titulo }}</h5>
+            <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card">
+                <i class="fab fa-whatsapp"></i> CONSULTAR
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 
                             <div class="product-card">
                                 <img src="assets/images/frio/conservadora-para-helados-16-tachos-foto1.webp">
@@ -1850,6 +1854,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   </body>
 </html>
+
 
 
 
