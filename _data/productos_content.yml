@@ -1,26 +1,30 @@
 productos_list:
-  - titulo: "Spiedo 12 Rollos Calabro"
-    categoria: "Gastronomía"
-    img_principal: "assets/images/gastronomia/spiedo-calabro-12-pollos.png"
+  - titulo: Spiedo 12 Rollos Calabro
+    categoria: Gastronomía
+    img_principal: assets/images/gastronomia/spiedo-calabro-12-pollos.png
     badge_texto: ""
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 12 rollos Calabro"
-  - titulo: "Spiedo 24 Rollos Calabro"
-    categoria: "Gastronomía"
-    img_principal: "assets/images/gastronomia/spiedo-calabro-24-pollos.png"
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 12
+      rollos Calabro
+  - titulo: Spiedo 24 Rollos Calabro
+    categoria: Gastronomía
+    img_principal: assets/images/gastronomia/spiedo-calabro-24-pollos.png
     badge_texto: ""
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 24 rollos Calabro"
-  - titulo: "Cocina Industrial Pesada"
-    categoria: "Gastronomía"
-    img_principal: "assets/images/gastronomia/cocinaindustrial1.jpeg"
-    badge_texto: "PRODUCTO DESTACADO"
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Industrial Pesada"
-  - titulo: "Cocina Semi-Industrial"
-    categoria: "Gastronomía"
-    img_principal: "assets/images/gastronomia/cocina-semi-industriales.jpeg"
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 24
+      rollos Calabro
+  - titulo: Cocina Industrial Pesada
+    categoria: Gastronomía
+    img_principal: assets/images/gastronomia/cocinaindustrial1.jpeg
+    badge_texto: PRODUCTO DESTACADO
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Industrial
+      Pesada
+  - titulo: Cocina Semi-Industrial
+    categoria: Gastronomía
+    img_principal: assets/images/gastronomia/cocina-semi-industriales.jpeg
     badge_texto: ""
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Semi-Industrial"
-  - titulo: "Freidora Automática"
-    categoria: "Gastronomía"
-    img_principal: "assets/images/gastronomia/freidora1.jpeg"
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Cocina
+      Semi-Industrial
+  - titulo: Freidora Automática
+    categoria: Sistemas de Pesaje
+    img_principal: assets/images/gastronomia/freidora1.jpeg
     badge_texto: ""
-    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Freidora"
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Freidora
