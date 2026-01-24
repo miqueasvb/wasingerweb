@@ -98,7 +98,38 @@ productos_pesaje_list:
     wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Balanza Kretz Report"
     categoria: "Pesaje"
 
-# --- OTRAS LISTAS ---
-productos_carniceria_list: []
+productos_carniceria_list:
+  - titulo: "Sierra Chica"
+    subcategoria: "Línea Liviana"
+    img_principal: "assets/images/carniceria/sierrachica1.jpeg"
+    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Sierra Carnicera de Mesa"
+    categoria: "Carnicería"
+    badge_texto: "PRODUCTO DESTACADO"
+  - titulo: "Embutidora"
+    subcategoria: "Línea Liviana"
+    img_principal: "assets/images/carniceria/embutidora1.jpeg"
+    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Embutidora"
+    categoria: "Carnicería"
+  - titulo: "Picadora de Carne"
+    subcategoria: "Línea Liviana"
+    img_principal: "assets/images/carniceria/picadora-de-carne-1.jpeg"
+    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Picadora de Carne"
+    categoria: "Carnicería"
+  - titulo: "Picadora de Carne 2"
+    subcategoria: "Línea Liviana"
+    img_principal: "assets/images/carniceria/picadora-de-carne-2.jpeg"
+    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Picadora de Carne"
+    categoria: "Carnicería"
+  - titulo: "Sierra Grande 1"
+    subcategoria: "Línea Pesada"
+    img_principal: "assets/images/carniceria/sierragrande1.jpeg"
+    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Sierra Carnicera 1.5 HP"
+    categoria: "Carnicería"
+  - titulo: "Sierra Grande 2"
+    subcategoria: "Línea Pesada"
+    img_principal: "assets/images/carniceria/sierragrande2.jpeg"
+    wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Sierra Carnicera 2.0 HP"
+    categoria: "Carnicería"
+    
 productos_panaderia_list: []
 productos_exhibidores_list: []
