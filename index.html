@@ -1090,47 +1090,18 @@
                   
 <div class="tab-pane fade" id="content-exhibidores" role="tabpanel">
     <div class="product-grid">
-        <div class="product-card">
-            <img src="assets/images/exhibidores/caramelera-16div.jpeg" alt="Caramelera 16 Div.">
-            <h5>Caramelera 16 Div.</h5>
-            <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Caramelera 16 divisiones" target="_blank" class="btn-wa-card">
-                <i class="fab fa-whatsapp"></i> CONSULTAR
-            </a>
-        </div>
-
-<div class="product-card" onclick="verProducto('assets/images/exhibidores/mostrador-vidrio.jpeg', 'Mostrador de Vidrio', 'Disponible en medidas de 1.00m, 1.50m y 2.00m. Podés elegir mesada de vidrio o laminada según tu necesidad.', 'https://wa.me/5493644177499?text=Hola! Me interesa el Mostrador de Vidrio')">
-    <img src="assets/images/exhibidores/Mostrador-de-vidrio.jpeg">
-    <h5>Mostrador de Vidrio</h5>
-    <div class="btn-wa-card"><i class="fab fa-whatsapp"></i> VER DETALLE</div>
-</div>
-
-        <div class="product-card">
-            <img src="assets/images/exhibidores/mostrador-facturero.jpeg" alt="Mostrador Facturero">
-            <h5>Mostrador Facturero</h5>
-            <p class="small text-muted">3, 5 y 6 bandejas</p>
-            <a href="https://wa.me/5493644177499?text=Hola! Me interesa el Mostrador Facturero" target="_blank" class="btn-wa-card">
-                <i class="fab fa-whatsapp"></i> CONSULTAR
-            </a>
-        </div>
-
-        <div class="product-card">
-            <span class="badge-disponible">PRODUCTO DESTACADO</span>
-            <img src="assets/images/exhibidores/vitrina-para-platos.jpeg" alt="Vitrina Platos Calientes">
-            <h5>Vitrina Platos Calientes</h5>
-            <p class="small text-muted">4 bandejas</p>
-            <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Vitrina para platos calientes" target="_blank" class="btn-wa-card">
-                <i class="fab fa-whatsapp"></i> CONSULTAR
-            </a>
-        </div>
-
-        <div class="product-card">
-            <img src="assets/images/exhibidores/panera-2divisiones.jpeg" alt="Panera 2 Div.">
-            <h5>Panera 2 Div.</h5>
-            <p class="small text-muted">Doble división</p>
-            <a href="https://wa.me/5493644177499?text=Hola! Me interesa la Panera de 2 divisiones" target="_blank" class="btn-wa-card">
-                <i class="fab fa-whatsapp"></i> CONSULTAR
-            </a>
-        </div>
+        {% for p in site.data.productos_content.productos_exhibidores_list %}
+            <div class="product-card">
+                {% if p.badge_texto != "" and p.badge_texto != nil %}
+                    <span class="badge-disponible">{{ p.badge_texto }}</span>
+                {% endif %}
+                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
+                <h5>{{ p.titulo }}</h5>
+                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card">
+                    <i class="fab fa-whatsapp"></i> CONSULTAR
+                </a>
+            </div>
+        {% endfor %}
     </div>
 </div>
 
@@ -1667,6 +1638,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   </body>
 </html>
+
 
 
 
