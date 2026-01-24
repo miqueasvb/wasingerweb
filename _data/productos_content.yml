@@ -1,25 +1,59 @@
 productos_list:
-  - titulo: "Freidora Automática"
-    categoria: "Sistemas de Pesaje"
-    img_principal: "assets/images/gastronomia/freidora-automatica.jpeg"
-    wa_link: "https://wa.me/5493644177499"
-  - titulo: "Sierra Chica"
-    categoria: "Línea Carnicería"
-    img_principal: "assets/images/carniceria/sierrachica1.jpeg"
-    wa_link: "https://wa.me/5493644177499"
-  - titulo: "Sierra Grande 1"
-    categoria: "Línea Carnicería"
-    img_principal: "assets/images/carniceria/sierragrande1.jpeg"
-    wa_link: "https://wa.me/5493644177499"
-  - titulo: "Balanza Systel Clipse"
-    categoria: "Sistemas de Pesaje"
-    img_principal: "assets/images/sistemadepesaje/balanza-systel-clipse.webp"
-    wa_link: "https://wa.me/5493644177499"
-  - titulo: "Sobadora de Mesa 400mm"
-    categoria: "Línea Panadería"
-    img_principal: "assets/images/panaderia/liviana/liviana1.webp"
-    wa_link: "https://wa.me/5493644177499"
-  - titulo: "Caramelera 16 Div."
-    categoria: "Exhibidores"
-    img_principal: "assets/images/exhibidores/caramelera-16div.jpeg"
-    wa_link: "https://wa.me/5493644177499"
+  # LÍNEA DE FRÍO
+  - {titulo: "Conservadora para helados FAM 12 Tachos", categoria: "Línea de Frío", img_principal: "assets/images/frio/conservadora-para-helados-12tachos.png", wa_link: "https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 12 tachos"}
+  - {titulo: "Conservadora para helados FAM 16 Tachos", categoria: "Línea de Frío", img_principal: "assets/images/frio/conservadora-para-helados-16-tachos-foto1.webp", wa_link: "https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 16 tachos"}
+  - {titulo: "Conservadora para helados FAM 18 Tachos", categoria: "Línea de Frío", img_principal: "assets/images/frio/conservadora-para-helados-18-tachos-foto1.webp", wa_link: "https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 18 tachos"}
+  - {titulo: "Conservadora para helados FAM 22 Tachos", categoria: "Línea de Frío", img_principal: "assets/images/frio/conservadora-para-helados-22-tachos-foto1.webp", wa_link: "https://wa.me/5493644177499?text=Hola Nestor! Consulto por la FAM de 22 tachos"}
+  - {titulo: "Heladera Carnicera (Ganchera)", categoria: "Línea de Frío", img_principal: "assets/images/frio/heladera-carnicera.jpeg", wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa la Heladera Carnicera"}
+  - {titulo: "Mini Cámara Frigorífica", categoria: "Línea de Frío", img_principal: "assets/images/frio/mini-camaras.jpeg", wa_link: "https://wa.me/5493644177499?text=Hola! Me interesa consultar el stock de la Mini Cámara"}
+  - {titulo: "Heladera Exhibidora Vertical", categoria: "Línea de Frío", img_principal: "assets/images/frio/heladera-vitrina1.jpeg", wa_link: "https://wa.me/5493644177499?text=Hola Néstor! Quiero consultar stock de la Heladera Exhibidora Vertical"}
+  - {titulo: "Heladera Exhibidora Doble Puerta", categoria: "Línea de Frío", img_principal: "assets/images/frio/heladera-vitrina2.jpeg", wa_link: "https://wa.me/5493644177499?text=Hola Néstor! Quiero consultar stock de la Heladera Exhibidora Doble Puerta"}
+  - {titulo: "Heladera Exhibidora 370 Lts", categoria: "Línea de Frío", img_principal: "assets/images/frio/heladera-exhibidora-vertical1.jpeg", wa_link: "https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la Exhibidora de 370 Lts"}
+  - {titulo: "Heladera Exhibidora 470 Lts", categoria: "Línea de Frío", img_principal: "assets/images/frio/heladera-exhibidora-vertical2.jpeg", wa_link: "https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la Exhibidora de 470 Lts"}
+
+  # GASTRONOMÍA
+  - {titulo: "Freidora Automática", categoria: "Gastronomía", img_principal: "assets/images/gastronomia/freidora-automatica.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Spiedo 12 Rollos Calabro", categoria: "Gastronomía", img_principal: "assets/images/gastronomia/spiedo12.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Spiedo 24 Rollos Calabro", categoria: "Gastronomía", img_principal: "assets/images/gastronomia/spiedo24.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Cocina Industrial Pesada", categoria: "Gastronomía", img_principal: "assets/images/gastronomia/cocina-industrial.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Cocina Semi-Industrial", categoria: "Gastronomía", img_principal: "assets/images/gastronomia/cocina-semi.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Hornos Pizzeros y Pasteleros", categoria: "Gastronomía", img_principal: "assets/images/gastronomia/horno-pizzero.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Horno para Pollos al Spiedo", categoria: "Gastronomía", img_principal: "assets/images/gastronomia/horno-pollos.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Carlitera con Carritero", categoria: "Gastronomía", img_principal: "assets/images/gastronomia/carlitera.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Panchera con Calienta Pan", categoria: "Gastronomía", img_principal: "assets/images/gastronomia/panchera-calienta.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Panchera Simple con Carlitera", categoria: "Gastronomía", img_principal: "assets/images/gastronomia/panchera-carlitera.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Panchera Eléctrica Estándar", categoria: "Gastronomía", img_principal: "assets/images/gastronomia/panchera-electrica.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Lomitera / Plancha Profesional", categoria: "Gastronomía", img_principal: "assets/images/gastronomia/lomitera.jpeg", wa_link: "https://wa.me/5493644177499"}
+
+  # SISTEMAS DE PESAJE
+  - {titulo: "Balanza Systel Clipse", categoria: "Sistemas de Pesaje", img_principal: "assets/images/sistemadepesaje/balanza-systel-clipse.webp", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Balanza Comercial Systel Cuora Max - 30kg", categoria: "Sistemas de Pesaje", img_principal: "assets/images/sistemadepesaje/balanza comercial systel cuora max.webp", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Balanza Systel Croma - 31kg", categoria: "Sistemas de Pesaje", img_principal: "assets/images/sistemadepesaje/Balanza comercial digital Systel Croma.webp", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Balanza Aura Eco Kretz", categoria: "Sistemas de Pesaje", img_principal: "assets/images/sistemadepesaje/Balanza Aura Eco.webp", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Balanza Novel Eco Kretz", categoria: "Sistemas de Pesaje", img_principal: "assets/images/sistemadepesaje/Balanza Novel Eco.webp", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Balanza Kretz Report LT 30 Kg", categoria: "Sistemas de Pesaje", img_principal: "assets/images/sistemadepesaje/balanza comercial digital kretz report.webp", wa_link: "https://wa.me/5493644177499"}
+
+  # LÍNEA CARNICERÍA
+  - {titulo: "Sierra Chica", categoria: "Línea Carnicería", img_principal: "assets/images/carniceria/sierrachica1.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Embutidora", categoria: "Línea Carnicería", img_principal: "assets/images/carniceria/embutidora1.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Picadora de Carne", categoria: "Línea Carnicería", img_principal: "assets/images/carniceria/picadora-de-carne-1.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Picadora de Carne 2", categoria: "Línea Carnicería", img_principal: "assets/images/carniceria/picadora-de-carne-2.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Sierra Grande 1", categoria: "Línea Carnicería", img_principal: "assets/images/carniceria/sierragrande1.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Sierra Grande 2", categoria: "Línea Carnicería", img_principal: "assets/images/carniceria/sierragrande2.jpeg", wa_link: "https://wa.me/5493644177499"}
+
+  # LÍNEA PANADERÍA
+  - {titulo: "Sobadora de Mesa 400mm", categoria: "Línea Panadería", img_principal: "assets/images/panaderia/liviana/liviana1.webp", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Amasadora 10 Kg Estándar", categoria: "Línea Panadería", img_principal: "assets/images/panaderia/liviana/liviana2.webp", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Amasadora 20 Kg Reforzada", categoria: "Línea Panadería", img_principal: "assets/images/panaderia/pesada/pesada1.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Sobadora de Pie 500mm Profesional", categoria: "Línea Panadería", img_principal: "assets/images/panaderia/pesada/pesada2.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Horno Convector 10 Estantes", categoria: "Línea Panadería", img_principal: "assets/images/panaderia/pesada/pesada3.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Horno Convector 1", categoria: "Línea Panadería", img_principal: "assets/images/panaderia/pesada/hornoconvector1.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Horno Convector 2 Brafh", categoria: "Línea Panadería", img_principal: "assets/images/panaderia/pesada/hornoconvector2.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Horno Convector 3 Brafh", categoria: "Línea Panadería", img_principal: "assets/images/panaderia/pesada/hornoconvector3.jpeg", wa_link: "https://wa.me/5493644177499"}
+
+  # EXHIBIDORES
+  - {titulo: "Caramelera 16 Div.", categoria: "Exhibidores", img_principal: "assets/images/exhibidores/caramelera-16div.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Mostrador de Vidrio", categoria: "Exhibidores", img_principal: "assets/images/exhibidores/mostrador-vidrio.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Mostrador Facturero", categoria: "Exhibidores", img_principal: "assets/images/exhibidores/mostrador-facturero.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Vitrina Platos Calientes", categoria: "Exhibidores", img_principal: "assets/images/exhibidores/vitrina-para-platos.jpeg", wa_link: "https://wa.me/5493644177499"}
+  - {titulo: "Panera 2 Div.", categoria: "Exhibidores", img_principal: "assets/images/exhibidores/panera-2divisiones.jpeg", wa_link: "https://wa.me/5493644177499"}
