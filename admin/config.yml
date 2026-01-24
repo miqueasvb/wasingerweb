@@ -25,12 +25,21 @@ collections:
               - { label: "Categoría", name: "categoria", widget: "hidden", default: "Gastronomía" }
               - { label: "Badge", name: "badge_texto", widget: "string", required: false }
 
-      # ESTAS APARECERÁN EN EL PANEL PERO NO HACEN NADA TODAVÍA
+# AHORA ACTIVAMOS FRÍO
       - name: "frio"
         label: "❄️ Línea de Frío"
         file: "_data/frio.yml"
         fields:
-          - { label: "Próximamente", name: "info", widget: "hidden", default: "Pronto" }
+          - label: "Productos de Línea de Frío"
+            name: "productos_list"
+            widget: "list"
+            summary: '{{fields.titulo}}'
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Imagen", name: "img_principal", widget: "image" }
+              - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
+              - { label: "Categoría", name: "categoria", widget: "hidden", default: "Frío" }
+              - { label: "Badge (Ej: DESTACADO)", name: "badge_texto", widget: "string", required: false }
 
       - name: "pesaje"
         label: "⚖️ Sistemas de Pesaje"
