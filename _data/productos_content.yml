@@ -54,7 +54,7 @@ productos_frio_list:
     img_principal: assets/images/frio/heladera-carnicera.jpeg
     wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Heladera Carnicera
     categoria: Frío
-    badge_texto: miqueasvico
+    badge_texto: ""
   - titulo: Mini Cámara Frigorífica
     img_principal: assets/images/frio/mini-camaras.jpeg
     wa_link: https://wa.me/5493644177499?text=Hola! Me interesa consultar el stock
