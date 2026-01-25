@@ -1,16 +1,16 @@
 productos_list:
-  - titulo: Spiedo 12 Rollos Calabro
+  - titulo: Spiedo 12 Pollos Calabro
     categoria: Gastronomía
     img_principal: assets/images/gastronomia/spiedo-calabro-12-pollos.png
     badge_texto: ""
     wa_link: https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 12
-      rollos Calabro
-  - titulo: Spiedo 24 Rollos Calabro
+      pollos Calabro
+  - titulo: Spiedo 24 Pollos Calabro
     categoria: Gastronomía
     img_principal: assets/images/gastronomia/spiedo-calabro-24-pollos.png
     badge_texto: ""
     wa_link: https://wa.me/5493644177499?text=Hola! Me interesa el Spiedo de 24
-      rollos Calabro
+      pollos Calabro
   - titulo: Cocina Industrial Pesada
     categoria: Gastronomía
     img_principal: assets/images/gastronomia/cocinaindustrial1.jpeg
