@@ -70,15 +70,20 @@ productos_frio_list:
       la Heladera Exhibidora Doble Puerta
     categoria: Frío
   - titulo: Heladera Exhibidora 370 Lts
-    img_principal: assets/images/frio/heladera-exhibidora-vertical1.jpeg
+    img_principal: assets/images/productos/img_0143.jpg
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
       Exhibidora de 370 Lts
     categoria: Frío
   - titulo: Heladera Exhibidora 470 Lts
-    img_principal: assets/images/frio/heladera-exhibidora-vertical2.jpeg
+    img_principal: assets/images/productos/img_0142.jpg
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
       Exhibidora de 470 Lts
     categoria: Frío
+  - categoria: Frío
+    titulo: Heladera Exhibidora 980 Lts
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Exhibidora de 980 Lts
+    img_principal: assets/images/productos/img_0145.jpg
 productos_pesaje_list:
   - titulo: Balanza Systel Clipse
     img_principal: assets/images/sistemadepesaje/balanza-systel-clipse.webp
