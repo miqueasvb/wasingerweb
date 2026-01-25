@@ -23,9 +23,9 @@ productos_list:
     badge_texto: ""
     wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Cocina
       Semi-Industrial
-  - titulo: Freidora Automática
+  - titulo: Freidoras de 15lts y 35 lts
     categoria: Gastronomía
-    img_principal: assets/images/gastronomia/freidora1.jpeg
+    img_principal: assets/images/productos/img_0293.jpg
     badge_texto: ""
     wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Freidora
 productos_frio_list:
