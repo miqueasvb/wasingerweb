@@ -167,16 +167,20 @@ productos_panaderia_list:
     img_principal: assets/images/panaderia/pesada/pesada2.jpeg
     wa_link: https://wa.me/5493644177499?text=Consulto por Sobadora de Pie
     categoria: Panadería
-  - titulo: Horno Convector 10 Estantes
+  - titulo: Trinchadora Pan
     subcategoria: Línea Pesada
     img_principal: assets/images/panaderia/pesada/pesada3.jpeg
-    wa_link: https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial
+    wa_link: https://wa.me/5493644177499?text=Consulto por trinchadora
     categoria: Panadería
-  - titulo: Horno Convector 1
+  - titulo: Horno Convector Dynam
     subcategoria: Línea Pesada
-    img_principal: assets/images/panaderia/pesada/hornoconvector1.jpeg
-    wa_link: https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial
+    img_principal: assets/images/productos/img_0141.jpg
+    wa_link: "https://wa.me/5493644177499?text=Consulto por Horno Convector "
     categoria: Panadería
+  - categoria: Panadería
+    titulo: Horno Convector Morelli
+    img_principal: assets/images/productos/img_0140.jpg
+    wa_link: "https://wa.me/5493644177499?text=Consulto por Horno Convector "
   - titulo: Horno Convector Brafh 5 bandejas
     subcategoria: Línea Pesada
     img_principal: assets/images/productos/img_0137.jpg
