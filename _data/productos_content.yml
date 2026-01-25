@@ -164,7 +164,7 @@ productos_panaderia_list:
     categoria: Panadería
   - titulo: Sobadora de Pie 500mm Profesional
     subcategoria: Línea Pesada
-    img_principal: assets/images/panaderia/pesada/pesada2.jpeg
+    img_principal: assets/images/productos/img_0287.jpg
     wa_link: https://wa.me/5493644177499?text=Consulto por Sobadora de Pie
     categoria: Panadería
   - titulo: Trinchadora Pan
