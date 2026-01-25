@@ -17,12 +17,11 @@ productos_list:
     badge_texto: ""
     wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Industrial
       Pesada
-  - titulo: Cocina Semi-Industrial
+  - titulo: Cocina Industrial Calabro 6 hornallas
     categoria: Gastronomía
-    img_principal: assets/images/gastronomia/cocina-semi-industriales.jpeg
+    img_principal: assets/images/productos/img_0294.jpg
     badge_texto: ""
-    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Cocina
-      Semi-Industrial
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Industrial
   - titulo: Freidoras de 15lts y 35 lts
     categoria: Gastronomía
     img_principal: assets/images/productos/img_0293.jpg
