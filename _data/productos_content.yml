@@ -59,13 +59,13 @@ productos_frio_list:
     wa_link: https://wa.me/5493644177499?text=Hola! Me interesa consultar el stock
       de la Mini Cámara
     categoria: Frío
-  - titulo: Heladera Exhibidora
-    img_principal: assets/images/frio/heladera-vitrina1.jpeg
+  - titulo: Heladera Vitrina Chica
+    img_principal: assets/images/productos/img_0282.jpg
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Quiero consultar stock de
-      la Heladera Exhibidora Vertical
+      la Heladera Vitrina Chica
     categoria: Frío
-  - titulo: Heladera Exhibidora Doble Puerta
-    img_principal: assets/images/frio/heladera-vitrina2.jpeg
+  - titulo: Heladera Vitrina 2 metros, 2,5 metros y 3 metros.
+    img_principal: assets/images/productos/img_0280.jpg
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Quiero consultar stock de
       la Heladera Exhibidora Doble Puerta
     categoria: Frío
