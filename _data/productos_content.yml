@@ -51,7 +51,7 @@ productos_frio_list:
       tachos
     categoria: Frío
   - titulo: "Heladera Carnicera "
-    img_principal: assets/images/frio/heladera-carnicera.jpeg
+    img_principal: assets/images/productos/img_0134.jpg
     wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Heladera Carnicera
     categoria: Frío
   - titulo: Mini Cámara Frigorífica
