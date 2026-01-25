@@ -22,6 +22,14 @@ productos_list:
     img_principal: assets/images/productos/img_0294.jpg
     badge_texto: ""
     wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Industrial
+  - categoria: Gastronomía
+    titulo: Cocina Morelli con plancha
+    img_principal: assets/images/productos/img_0298-2.jpg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Industrial
+  - categoria: Gastronomía
+    titulo: Cocina Semi-Industrial
+    img_principal: assets/images/productos/img_0295.jpg
+    wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Cocina Industrial
   - titulo: Freidoras de 15lts y 35 lts
     categoria: Gastronomía
     img_principal: assets/images/productos/img_0293.jpg
