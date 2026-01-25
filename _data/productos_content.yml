@@ -154,13 +154,13 @@ productos_panaderia_list:
     badge_texto: PRODUCTO DESTACADO
   - titulo: Amasadora 10 Kg Estándar
     subcategoria: Línea Liviana
-    img_principal: assets/images/productos/img_0147.jpg
+    img_principal: assets/images/productos/img_0289.jpg
     wa_link: https://wa.me/5493644177499?text=Consulto por Amasadora 10kg
     categoria: Panadería
-  - titulo: Amasadora 20 Kg Reforzada
+  - titulo: Amasadora 50 Kg Reforzada
     subcategoria: Línea Pesada
-    img_principal: assets/images/panaderia/pesada/pesada1.jpeg
-    wa_link: https://wa.me/5493644177499?text=Consulto por Amasadora 20kg
+    img_principal: assets/images/productos/img_0291.jpg
+    wa_link: https://wa.me/5493644177499?text=Consulto por Amasadora 50kg
     categoria: Panadería
   - titulo: Sobadora de Pie 500mm Profesional
     subcategoria: Línea Pesada
