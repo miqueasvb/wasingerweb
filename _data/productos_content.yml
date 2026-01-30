@@ -43,6 +43,26 @@ productos_list:
     titulo: Cortadoras de fiambres calibre 330
     img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-7.19.34-pm.jpeg
     wa_link: https://wa.me/5493644177499?
+  - categoria: Gastronomía
+    titulo: Carlitera Simple
+    img_principal: assets/images/productos/carliterasimple.png
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Carlitera Simple
+  - categoria: Gastronomía
+    titulo: Carlitera Doble
+    img_principal: assets/images/productos/carliteradoble.png
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Carlitera Doble
+  - categoria: Gastronomía
+    titulo: Lomitera Simple
+    img_principal: assets/images/productos/lomitera-simple.png
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Lomitera Simple
+  - categoria: Gastronomía
+    titulo: Lomitera Doble
+    img_principal: assets/images/productos/lomitera-doble.png
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Lomitera Doble
 productos_frio_list:
   - titulo: Conservadora para helados FAM 12 Tachos
     img_principal: assets/images/frio/conservadora-para-helados-12tachos.png
