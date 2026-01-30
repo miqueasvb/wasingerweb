@@ -127,6 +127,11 @@ productos_frio_list:
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
       Heladera vertical de 3 puertas
     badge_texto: ""
+  - categoria: Frío
+    titulo: Freezer Inelro 350 y 550 lts tapa ciega
+    img_principal: assets/images/productos/sin-título.png
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock del
+      Freezer Inelro
 productos_pesaje_list:
   - titulo: Balanza Systel Clipse
     img_principal: assets/images/sistemadepesaje/balanza-systel-clipse.webp
