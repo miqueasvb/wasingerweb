@@ -121,6 +121,12 @@ productos_frio_list:
     img_principal: assets/images/productos/0205000083-afed22a00f3c4a91bc17202052540242-1024-1024.webp
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
       Batea carnicera vidrio curvo
+  - categoria: Frío
+    titulo: Heladera vertical de 3 puertas 1200 lts
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-7.00.44-pm.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Heladera vertical de 3 puertas
+    badge_texto: ""
 productos_pesaje_list:
   - titulo: Balanza Systel Clipse
     img_principal: assets/images/sistemadepesaje/balanza-systel-clipse.webp
