@@ -96,6 +96,26 @@ productos_frio_list:
     img_principal: assets/images/productos/d_nq_np_2x_967077-mla93531832476_102025-f.webp
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock del Pozo
       de frío de 1200 lts
+  - categoria: Frío
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-6.59.35-pm.jpeg
+    titulo: Heladera mostrador vidrio curvo en 2 y 2,40 mts
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Heladera mostrador vidrio curvo
+  - categoria: Frío
+    titulo: Batea carnicera vidrio recto de 1,20  1,90  2  y 2,40 mts
+    img_principal: assets/images/productos/batea-carnicera.jfif
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Batea carnicera vidrio recto
+  - categoria: Frío
+    titulo: Góndola de lactera de 1,30 mts
+    img_principal: assets/images/productos/góndola-de-lactera-de-1-30-mts.png
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Góndola de lactera
+  - categoria: Frío
+    titulo: Heladera conservadora de hielo capacidad 90 bolsitas
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-7.00.42-pm1.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Heladera conservadora de hielo
 productos_pesaje_list:
   - titulo: Balanza Systel Clipse
     img_principal: assets/images/sistemadepesaje/balanza-systel-clipse.webp
