@@ -91,6 +91,11 @@ productos_frio_list:
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
       Exhibidora de 980 Lts
     img_principal: assets/images/productos/img_0145.jpg
+  - categoria: Frío
+    titulo: Pozo de frío de 1200 lts
+    img_principal: assets/images/productos/d_nq_np_2x_967077-mla93531832476_102025-f.webp
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock del Pozo
+      de frío de 1200 lts
 productos_pesaje_list:
   - titulo: Balanza Systel Clipse
     img_principal: assets/images/sistemadepesaje/balanza-systel-clipse.webp
