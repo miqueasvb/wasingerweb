@@ -188,6 +188,16 @@ productos_list:
     img_principal: assets/images/productos/delantales-carniceros.png
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de los
       Delantales carniceros en tela y PVC
+  - categoria: Gastronomía
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-8.11.22-pm.jpeg
+    titulo: Hojas de sierras en todas las medidas
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de las
+      Hojas de sierras
+  - categoria: Gastronomía
+    titulo: Insectocutores matamoscas
+    img_principal: assets/images/productos/1.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de los
+      Insectocutores matamoscas
 productos_frio_list:
   - titulo: Conservadora para helados FAM 12 Tachos
     img_principal: assets/images/frio/conservadora-para-helados-12tachos.png
