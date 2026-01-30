@@ -132,6 +132,16 @@ productos_frio_list:
     img_principal: assets/images/productos/sin-título.png
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock del
       Freezer Inelro
+  - categoria: Frío
+    titulo: Heladeras verticales inelro de 400 lts y 470 lts
+    img_principal: assets/images/productos/d_nq_np_867047-mla99882199299_112025-o.webp
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Heladeras verticales Inelro
+  - categoria: Frío
+    titulo: Heladera vertical Inelro de 980 lts
+    img_principal: assets/images/productos/sin-título2.png
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Heladeras verticales Inelro
 productos_pesaje_list:
   - titulo: Balanza Systel Clipse
     img_principal: assets/images/sistemadepesaje/balanza-systel-clipse.webp
