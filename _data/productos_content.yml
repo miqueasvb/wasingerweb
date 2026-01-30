@@ -506,3 +506,33 @@ productos_exhibidores_list:
     img_principal: assets/images/productos/mostrador2.jpeg
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock del
       Mostrador exhibidor de vidrio
+  - categoria: Exhibidores
+    titulo: Exhibidor vertical
+    img_principal: assets/images/productos/mostrador-vertical.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock del
+      Exhibidor vertical
+  - categoria: Exhibidores
+    img_principal: assets/images/productos/mostrador-vertical2.jpeg
+    titulo: Exhibidor vertical
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock del
+      Exhibidor vertical
+  - categoria: Exhibidores
+    titulo: Exhibidor de alambres
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-8.23.34-pm.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock del
+      Exhibidor de alambres
+  - categoria: Exhibidores
+    titulo: Exhibidor de alambres
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-8.23.33-pm.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock del
+      Exhibidor de alambres
+  - categoria: Exhibidores
+    titulo: Pasillos de revisión rectos
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-8.27.00-pm.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de
+      Pasillos de revisión rectos
+  - categoria: Exhibidores
+    titulo: Pasillos de revisión riñon
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-8.27.01-pm.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de los
+      Pasillos de revisión riñon
