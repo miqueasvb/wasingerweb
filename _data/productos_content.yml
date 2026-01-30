@@ -116,6 +116,11 @@ productos_frio_list:
     img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-7.00.42-pm1.jpeg
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
       Heladera conservadora de hielo
+  - categoria: Frío
+    titulo: Batea carnicera vidrio curvo 2 y  240 mts
+    img_principal: assets/images/productos/0205000083-afed22a00f3c4a91bc17202052540242-1024-1024.webp
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Batea carnicera vidrio curvo
 productos_pesaje_list:
   - titulo: Balanza Systel Clipse
     img_principal: assets/images/sistemadepesaje/balanza-systel-clipse.webp
