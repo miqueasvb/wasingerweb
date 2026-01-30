@@ -1059,18 +1059,15 @@
 </div>
 
 <div class="tab-pane fade" id="content-carniceria" role="tabpanel">
-    
     <div class="d-flex align-items-center mb-3 mt-2">
-        <h5 style="color: #2a2a2a; font-weight: 700; text-transform: uppercase; margin: 0;">Productos de Carnicería</h5>
+        <h5 style="color: #2a2a2a; font-weight: 700; text-transform: uppercase; margin: 0;">Línea Liviana</h5>
         <span style="height: 1px; background: #e0e0e0; flex-grow: 1; margin-left: 15px;"></span>
     </div>
-
     <div class="product-grid mb-4">
-        {% for p in site.data.productos_content.productos_carniceria_list %}
+        {% assign liviana = site.data.productos_content.productos_carniceria_list | where: "subcategoria", "Línea Liviana" %}
+        {% for p in liviana %}
             <div class="product-card">
-                {% if p.badge_texto != "" and p.badge_texto != nil %}
-                    <span class="badge-disponible">{{ p.badge_texto }}</span>
-                {% endif %}
+                {% if p.badge_texto != "" and p.badge_texto != nil %}<span class="badge-disponible">{{ p.badge_texto }}</span>{% endif %}
                 <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
                 <h5>{{ p.titulo }}</h5>
                 <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
@@ -1694,6 +1691,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   </body>
 </html>
+
 
 
 
