@@ -457,6 +457,11 @@ productos_panaderia_list:
     img_principal: assets/images/productos/img_0139.jpg
     wa_link: https://wa.me/5493644177499?text=Consulto por Horno Convector Industrial
     categoria: Panadería
+  - categoria: Panadería
+    titulo: Armadora de Pan
+    img_principal: assets/images/productos/armadora-de-pan.png
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Armadora de Pan
 productos_exhibidores_list:
   - titulo: Caramelera 16 Div.
     img_principal: assets/images/exhibidores/caramelera-16div.jpeg
