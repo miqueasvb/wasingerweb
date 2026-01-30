@@ -462,6 +462,31 @@ productos_panaderia_list:
     img_principal: assets/images/productos/armadora-de-pan.png
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
       Armadora de Pan
+  - categoria: Panadería
+    titulo: Amasadora de mesa reforzada
+    img_principal: assets/images/productos/amasadora-de-mesa-reforzada.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Amasadora de mesa reforzada
+  - categoria: Panadería
+    titulo: Bandejas enlozadas 45 x 70 (por 2 y por 5 cm de alto)
+    img_principal: assets/images/productos/bandejas-enlozadas-45-x-70-por-2-y-por-5-cm-de-alto-.png
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de las
+      Bandejas enlozadas
+  - categoria: Panadería
+    img_principal: assets/images/productos/d_nq_np_744068-mla93731020861_092025-o.webp
+    titulo: Moldes pizzeros de chapa en 34 y 36 cm
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de los
+      Moldes pizzeros de chapa
+  - categoria: Panadería
+    titulo: Bandejas de aluminio acanaladas de 45 x 70
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-8.17.46-pm.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de las
+      Bandejas de aluminio
+  - categoria: Panadería
+    titulo: Carros - Zorras
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-8.17.47-pm.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de los
+      Carros - Zorras
 productos_exhibidores_list:
   - titulo: Caramelera 16 Div.
     img_principal: assets/images/exhibidores/caramelera-16div.jpeg
