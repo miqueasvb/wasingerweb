@@ -311,6 +311,16 @@ productos_carniceria_list:
     wa_link: https://wa.me/5493644177499?text=Hola! Me interesa la Sierra Carnicera
       2.0 HP
     categoria: Carnicería
+  - categoria: Carnicería
+    titulo: Sierra carnicera (Uso para el campo)
+    img_principal: assets/images/productos/sierracarnicera-campo.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Sierra carnicera (Campo)
+  - categoria: Carnicería
+    titulo: Sierras Morelli con motor de 1 HP y 11/2 HP
+    img_principal: assets/images/productos/4.png
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de las
+      Sierras Morelli
 productos_panaderia_list:
   - titulo: Sobadora de Mesa 400mm
     subcategoria: Línea Liviana
