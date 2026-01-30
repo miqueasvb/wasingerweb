@@ -74,7 +74,7 @@ collections:
               - { label: "Título", name: "titulo", widget: "string" }
               - { label: "Imagen", name: "img_principal", widget: "image" }
               - { label: "Link WhatsApp", name: "wa_link", widget: "string" }
-              - { label: "Categoría", name: "categoria", widget: "hidden", default: "Carnicería" }
+              - { label: "Categoría", name: "categoria", widget: "hidden", default: "carn" }
 
   - name: "panaderia_seccion"
     label: "🥖 Línea Panadería"
