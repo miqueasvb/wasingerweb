@@ -336,6 +336,21 @@ productos_carniceria_list:
     img_principal: assets/images/productos/sin-título5.png
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
       Sierra carnicera de mesa
+  - categoria: Carnicería
+    titulo: Picadora de acero inox
+    img_principal: assets/images/productos/picadora-de-acero-inox.png
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Picadora de acero inox
+  - categoria: Carnicería
+    titulo: Picadora Marani cal 32
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-8.03.13-pm.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Picadora Marani cal 32
+  - categoria: Carnicería
+    titulo: Picadora eléctrica uso familiar intensivo
+    img_principal: assets/images/productos/sin-título6.png
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Picadora eléctrica uso familiar intensivo
 productos_panaderia_list:
   - titulo: Sobadora de Mesa 400mm
     subcategoria: Línea Liviana
