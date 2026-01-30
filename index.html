@@ -1001,153 +1001,87 @@
                      <small class="text-muted">Nestor Wasinger S.R.L</small>
                 </div>
 
-                <div class="tab-content" id="v-pills-tabContent" style="min-height: 500px;">
-                    
-<div class="tab-pane fade show active" id="content-frio" role="tabpanel">
-    <div class="product-grid">
-        {% for p in site.data.productos_content.productos_frio_list %}
-            <div class="product-card">
-                {% if p.badge_texto != "" and p.badge_texto != nil %}
-                    <span class="badge-disponible">{{ p.badge_texto }}</span>
-                {% endif %}
-                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
-                <h5>{{ p.titulo }}</h5>
-                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card">
-                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                </a>
-            </div>
-        {% endfor %}
-    </div>
-</div>
-
-                    <div class="tab-pane fade" id="content-pesaje" role="tabpanel">
-    <div class="product-grid">
-        {% for p in site.data.productos_content.productos_pesaje_list %}
-            <div class="product-card">
-                {% if p.badge_texto != "" and p.badge_texto != nil %}
-                    <span class="badge-disponible">{{ p.badge_texto }}</span>
-                {% endif %}
-                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
-                <h5>{{ p.titulo }}</h5>
-                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card">
-                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                </a>
-            </div>
-        {% endfor %}
-    </div>
-</div>
-
-                   <div class="tab-pane fade" id="content-gastro" role="tabpanel">
-    <div class="product-grid">
-        {% assign productos_gastro = site.data.productos_content.productos_list | where: "categoria", "Gastronomía" %}
-        
-        {% for p in productos_gastro %}
-            <div class="product-card">
-                {% if p.badge_texto != "" and p.badge_texto != nil %}
-                    <span class="badge-disponible">{{ p.badge_texto }}</span>
-                {% endif %}
-                
-                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
-                <h5>{{ p.titulo }}</h5>
-                
-                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card">
-                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                </a>
-            </div>
-        {% endfor %}
-    </div>
-</div>
-
-<div class="tab-pane fade" id="content-carniceria" role="tabpanel">
-    <div class="d-flex align-items-center mb-3 mt-2">
-        <h5 style="color: #2a2a2a; font-weight: 700; text-transform: uppercase; margin: 0;">Línea Liviana</h5>
-        <span style="height: 1px; background: #e0e0e0; flex-grow: 1; margin-left: 15px;"></span>
-    </div>
-    <div class="product-grid mb-4">
-        {% assign liviana = site.data.productos_content.productos_carniceria_list | where: "subcategoria", "Línea Liviana" %}
-        {% for p in liviana %}
+<div class="tab-content" id="v-pills-tabContent" style="min-height: 500px;">
+    
+    <div class="tab-pane fade show active" id="content-frio" role="tabpanel">
+        <div class="product-grid">
+            {% for p in site.data.productos_content.productos_frio_list %}
             <div class="product-card">
                 {% if p.badge_texto != "" and p.badge_texto != nil %}<span class="badge-disponible">{{ p.badge_texto }}</span>{% endif %}
                 <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
                 <h5>{{ p.titulo }}</h5>
                 <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
             </div>
-        {% endfor %}
-    </div>
-</div>
-
-    <div class="d-flex align-items-center mb-3 mt-4">
-        <h5 style="color: #2a2a2a; font-weight: 700; text-transform: uppercase; margin: 0;">Línea Pesada</h5>
-        <span style="height: 1px; background: #e0e0e0; flex-grow: 1; margin-left: 15px;"></span>
-    </div>
-    <div class="product-grid">
-        {% assign pesada = site.data.productos_content.productos_carniceria_list | where: "subcategoria", "Línea Pesada" %}
-        {% for p in pesada %}
-            <div class="product-card">
-                {% if p.badge_texto != "" and p.badge_texto != nil %}<span class="badge-disponible">{{ p.badge_texto }}</span>{% endif %}
-                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
-                <h5>{{ p.titulo }}</h5>
-                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-            </div>
-        {% endfor %}
-    </div>
-</div>
-
-<div class="tab-pane fade" id="content-panaderia" role="tabpanel">
-    <div class="d-flex align-items-center mb-3 mt-2">
-        <h5 style="color: #2a2a2a; font-weight: 700; text-transform: uppercase; margin: 0;">Equipamiento para Panadería</h5>
-        <span style="height: 1px; background: #e0e0e0; flex-grow: 1; margin-left: 15px;"></span>
-    </div>
-    <div class="product-grid mb-4">
-        {% for p in site.data.productos_content.productos_panaderia_list %}
-            <div class="product-card">
-                {% if p.badge_texto != "" and p.badge_texto != nil %}<span class="badge-disponible">{{ p.badge_texto }}</span>{% endif %}
-                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
-                <h5>{{ p.titulo }}</h5>
-                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-            </div>
-        {% endfor %}
-    </div>
-</div>
-
-    <div class="d-flex align-items-center mb-3 mt-4">
-        <h5 style="color: #2a2a2a; font-weight: 700; text-transform: uppercase; margin: 0;">Línea Pesada</h5>
-        <span style="height: 1px; background: #e0e0e0; flex-grow: 1; margin-left: 15px;"></span>
-    </div>
-    <div class="product-grid">
-        {% assign pan_pesada = site.data.productos_content.productos_panaderia_list | where: "subcategoria", "Línea Pesada" %}
-        {% for p in pan_pesada %}
-            <div class="product-card">
-                {% if p.badge_texto != "" and p.badge_texto != nil %}<span class="badge-disponible">{{ p.badge_texto }}</span>{% endif %}
-                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
-                <h5>{{ p.titulo }}</h5>
-                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
-            </div>
-        {% endfor %}
-    </div>
-</div>
-                  
-<div class="tab-pane fade" id="content-exhibidores" role="tabpanel">
-    <div class="product-grid">
-        {% for p in site.data.productos_content.productos_exhibidores_list %}
-            <div class="product-card">
-                {% if p.badge_texto != "" and p.badge_texto != nil %}
-                    <span class="badge-disponible">{{ p.badge_texto }}</span>
-                {% endif %}
-                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
-                <h5>{{ p.titulo }}</h5>
-                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card">
-                    <i class="fab fa-whatsapp"></i> CONSULTAR
-                </a>
-            </div>
-        {% endfor %}
-    </div>
-</div>
-
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
+
+    <div class="tab-pane fade" id="content-pesaje" role="tabpanel">
+        <div class="product-grid">
+            {% for p in site.data.productos_content.productos_pesaje_list %}
+            <div class="product-card">
+                {% if p.badge_texto != "" and p.badge_texto != nil %}<span class="badge-disponible">{{ p.badge_texto }}</span>{% endif %}
+                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
+                <h5>{{ p.titulo }}</h5>
+                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="tab-pane fade" id="content-gastro" role="tabpanel">
+        <div class="product-grid">
+            {% for p in site.data.productos_content.productos_list %}
+            <div class="product-card">
+                {% if p.badge_texto != "" and p.badge_texto != nil %}<span class="badge-disponible">{{ p.badge_texto }}</span>{% endif %}
+                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
+                <h5>{{ p.titulo }}</h5>
+                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="tab-pane fade" id="content-carniceria" role="tabpanel">
+        <div class="product-grid">
+            {% for p in site.data.productos_content.productos_carniceria_list %}
+            <div class="product-card">
+                {% if p.badge_texto != "" and p.badge_texto != nil %}<span class="badge-disponible">{{ p.badge_texto }}</span>{% endif %}
+                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
+                <h5>{{ p.titulo }}</h5>
+                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="tab-pane fade" id="content-panaderia" role="tabpanel">
+        <div class="product-grid">
+            {% for p in site.data.productos_content.productos_panaderia_list %}
+            <div class="product-card">
+                {% if p.badge_texto != "" and p.badge_texto != nil %}<span class="badge-disponible">{{ p.badge_texto }}</span>{% endif %}
+                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
+                <h5>{{ p.titulo }}</h5>
+                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="tab-pane fade" id="content-exhibidores" role="tabpanel">
+        <div class="product-grid">
+            {% for p in site.data.productos_content.productos_exhibidores_list %}
+            <div class="product-card">
+                {% if p.badge_texto != "" and p.badge_texto != nil %}<span class="badge-disponible">{{ p.badge_texto }}</span>{% endif %}
+                <img src="{{ p.img_principal }}" alt="{{ p.titulo }}">
+                <h5>{{ p.titulo }}</h5>
+                <a href="{{ p.wa_link }}" target="_blank" class="btn-wa-card"><i class="fab fa-whatsapp"></i> CONSULTAR</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
 
     <div class="row mt-5">
       <div class="col-lg-12">
@@ -1691,6 +1625,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   </body>
 </html>
+
 
 
 
