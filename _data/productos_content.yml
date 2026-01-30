@@ -73,6 +73,36 @@ productos_list:
     img_principal: assets/images/productos/freidora-comercial-electrica.png
     wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
       Freidora Comercial Eléctrica
+  - categoria: Gastronomía
+    titulo: Cocina semi industrial con plancha
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-7.21.59-pm.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Cocina semi industrial con plancha
+  - categoria: Gastronomía
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-7.21.59-pm1.jpeg
+    titulo: Hornos pasteleros y pizzeros
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de los
+      Hornos pasteleros y pizzeros
+  - categoria: Gastronomía
+    titulo: Hornos convectores de 5 y 10 bandejas de 45 por 70
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-7.22.00-pm2.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de los
+      Hornos convectores de 5 y 10 bandejas
+  - categoria: Gastronomía
+    titulo: Horno convector semi industrial
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-7.22.00-pm.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock del Horno
+      convector semi industrial
+  - categoria: Gastronomía
+    titulo: Cortadora de Papa
+    img_principal: assets/images/productos/cortadoradepapa.png
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Cortadora de Papa
+  - categoria: Gastronomía
+    titulo: Selladora de bolsitas
+    img_principal: assets/images/productos/whatsapp-image-2026-01-26-at-7.24.23-pm.jpeg
+    wa_link: https://wa.me/5493644177499?text=Hola Néstor! Consulto stock de la
+      Selladora de bolsitas
 productos_frio_list:
   - titulo: Conservadora para helados FAM 12 Tachos
     img_principal: assets/images/frio/conservadora-para-helados-12tachos.png
